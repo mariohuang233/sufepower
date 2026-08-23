@@ -10,11 +10,15 @@ export function consumptionDays(points: Point[]): ConsumptionDay[] {
   const sorted = sortedPoints(points);
   const grouped = new Map<string, ConsumptionDay>();
   for (let index = 1; index < sorted.length; index += 1) {
+    const previousPoint = sorted[index - 1];
+    const currentPoint = sorted[index];
+    const gapHours = (Date.parse(currentPoint.sampled_at) - Date.parse(previousPoint.sampled_at)) / 3600000;
+    if (gapHours > 8 || (previousPoint.balance_unit && currentPoint.balance_unit && previousPoint.balance_unit !== currentPoint.balance_unit)) continue;
     const previous = sorted[index - 1].balance_value as number;
     const current = sorted[index].balance_value as number;
     const day = sorted[index].sampled_at.slice(0, 10);
     const row = grouped.get(day) ?? { day, consumed: 0, recharged: 0, endBalance: current };
-    if (previous > current) row.consumed += previous - current;
+    if (previous >= 0 && current >= 0 && previous > current && previous - current <= 50) row.consumed += previous - current;
     if (current > previous) row.recharged += current - previous;
     row.endBalance = current;
     grouped.set(day, row);

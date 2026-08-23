@@ -4,7 +4,7 @@ from pathlib import Path
 import pytest
 from collector.ids import public_id
 from collector.quality import estimate, gate, coverage
-from collector.timeutils import slot_for
+from collector.timeutils import daily_slot_for, slot_for
 
 def test_public_id_is_stable_and_distinct():
     assert public_id('五角场校区','1号楼','101') == public_id('五角场校区','1号楼','101')
@@ -13,6 +13,10 @@ def test_public_id_is_stable_and_distinct():
 def test_slot_is_shanghai_four_hour_boundary():
     value=datetime(2026,8,23,5,23,tzinfo=timezone(timedelta(hours=8)))
     assert slot_for(value).hour == 4 and slot_for(value).minute == 0
+
+def test_daily_slot_is_shanghai_23_boundary():
+    value=datetime(2026,8,23,23,7,tzinfo=timezone(timedelta(hours=8)))
+    assert daily_slot_for(value).isoformat() == '2026-08-23T23:00:00+08:00'
 
 def test_consumption_quality_rules():
     prev={'balance_value':10,'balance_unit':'kWh'}

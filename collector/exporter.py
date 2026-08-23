@@ -43,7 +43,7 @@ def _consumption_index(snapshots: list[dict]) -> tuple[dict[tuple[str, str], dic
                     result["quality"] = "missing"
                 elif previous.get("balance_unit") != point.get("balance_unit"):
                     result["quality"] = "unit_changed"
-                elif gap_hours > 8:
+                elif gap_hours > 32:
                     result["quality"] = "gap"
                 elif before < 0 or current < 0:
                     result["quality"] = "outlier"
@@ -105,8 +105,8 @@ def export_public(db_path: Path=VAR/"sufeelec.db", target: Path=PUBLIC) -> Path:
     for snap in snapshots: latest[snap["room_id"]]=snap
     rooms=[]
     for row in registry:
-        snap=latest.get(row["room_id"]); daily=daily_index.get((row["room_id"], report_day or ""), {})
-        rooms.append({"room_id":row["room_id"],"campus_id":campus_ids[row["campus"]],"building_id":building_ids[(row["campus"],row["building"])],"floor":row["floor"],"name":row["room"],"balance_value":snap["balance_value"] if snap else None,"balance_unit":"元","last_updated":snap["sampled_at"] if snap else row["last_confirmed_at"],"stale":snap is None,"quality":snap["quality"] if snap else "missing","consumed_today":round(daily["consumed"],4) if daily.get("quality")=="ok" else None,"consumption_quality":daily.get("quality","insufficient_history")})
+        snap=latest.get(row["room_id"])
+        rooms.append({"room_id":row["room_id"],"campus_id":campus_ids[row["campus"]],"building_id":building_ids[(row["campus"],row["building"])],"floor":row["floor"],"name":row["room"],"balance_value":snap["balance_value"] if snap else None,"balance_unit":"元","last_updated":snap["sampled_at"] if snap else row["last_confirmed_at"],"stale":snap is None,"quality":snap["quality"] if snap else "missing"})
     successful=sum(1 for x in rooms if not x["stale"]); total=len(rooms); cov=successful/total if total else 0; status="healthy" if cov>=.98 else "partial" if cov>=.9 else "blocked"
     latest_slot=max((x["slot"] for x in snapshots),default=None); generated=iso(now_shanghai())
     stage=Path(tempfile.mkdtemp(prefix="sufeelec-public-",dir=str(target.parent)))/"v1"; stage.mkdir(parents=True)

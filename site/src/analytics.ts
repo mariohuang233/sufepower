@@ -13,7 +13,7 @@ export function consumptionDays(points: Point[]): ConsumptionDay[] {
     const previousPoint = sorted[index - 1];
     const currentPoint = sorted[index];
     const gapHours = (Date.parse(currentPoint.sampled_at) - Date.parse(previousPoint.sampled_at)) / 3600000;
-    if (gapHours > 8 || (previousPoint.balance_unit && currentPoint.balance_unit && previousPoint.balance_unit !== currentPoint.balance_unit)) continue;
+    if (gapHours > 32 || (previousPoint.balance_unit && currentPoint.balance_unit && previousPoint.balance_unit !== currentPoint.balance_unit)) continue;
     const previous = sorted[index - 1].balance_value as number;
     const current = sorted[index].balance_value as number;
     const day = sorted[index].sampled_at.slice(0, 10);

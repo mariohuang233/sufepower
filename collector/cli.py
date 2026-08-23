@@ -6,7 +6,7 @@ from .db import init_db
 from .demo import generate
 from .client import EMSClient, AuthError, BadRequestError
 from .collect import Collector
-from .timeutils import slot_for
+from .timeutils import daily_slot_for
 from .exporter import export_public, publish_staging, validate_staging
 from .quality import gate
 
@@ -26,7 +26,7 @@ def main():
         try: client=EMSClient(settings.token,settings.api_base,settings.interval_seconds)
         except AuthError as exc: parser.error(str(exc))
         try:
-            result=Collector(client).collect(slot_for())
+            result=Collector(client).collect(daily_slot_for())
             print(json.dumps(result,ensure_ascii=False))
             if result.get("status")=="blocked":
                 raise SystemExit("collection coverage below 90%; export was not attempted")

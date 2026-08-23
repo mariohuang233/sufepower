@@ -4,10 +4,10 @@ from datetime import timedelta
 from pathlib import Path
 from .config import PUBLIC, ensure_private_dirs
 from .ids import public_id
-from .timeutils import iso, now_shanghai, slot_for
+from .timeutils import daily_slot_for, iso, now_shanghai
 
 def generate(root: Path = PUBLIC) -> Path:
-    ensure_private_dirs(); random.seed(7); base = slot_for(now_shanghai())
+    ensure_private_dirs(); random.seed(7); base = daily_slot_for(now_shanghai())
     campuses = [{"campus_id":"wujiaochang","name":"五角场校区"},{"campus_id":"zhongyuan","name":"中原校区"}]
     buildings=[]; rooms=[]; latest=[]; histories={}
     for ci, campus in enumerate(campuses):
@@ -19,12 +19,11 @@ def generate(root: Path = PUBLIC) -> Path:
                 room=f"{101+ri}"; rid=public_id(campus["name"],name,room); value=round(10+ri*1.7-ci*2,2)
                 roomrow={"room_id":rid,"campus_id":campus["campus_id"],"building_id":bid,"floor":"1","name":room}
                 rooms.append(roomrow); stale=(ri==6 and bi==2)
-                latest.append({**roomrow,"balance_value":value,"balance_unit":"unknown","last_updated":iso(base-timedelta(hours=4 if stale else 0)),"stale":stale,"quality":"stale" if stale else "ok"})
+                latest.append({**roomrow,"balance_value":value,"balance_unit":"元","last_updated":iso(base-timedelta(days=1 if stale else 0)),"stale":stale,"quality":"stale" if stale else "ok"})
                 points=[]
                 for days in range(30,-1,-1):
-                    for slot in range(0,24,4):
-                        at=base-timedelta(days=days,hours=base.hour-slot)
-                        points.append({"slot":iso(at),"balance_value":round(value+(30-days)*.18+slot*.01,2),"balance_unit":"unknown","quality":"ok"})
+                    at=base-timedelta(days=days)
+                    points.append({"slot":iso(at),"sampled_at":iso(at),"balance_value":round(value+(30-days)*.18,2),"balance_unit":"元","quality":"ok"})
                 histories[bid].extend([{**p,"room_id":rid} for p in points])
     out=root/"v1"; (out/"registry").mkdir(parents=True,exist_ok=True); (out/"latest"/"buildings").mkdir(parents=True,exist_ok=True); (out/"intraday"/"buildings").mkdir(parents=True,exist_ok=True)
     (out/"registry/campuses.json").write_text(json.dumps(campuses,ensure_ascii=False,indent=2),encoding="utf-8")
@@ -36,10 +35,10 @@ def generate(root: Path = PUBLIC) -> Path:
         (out/f"latest/buildings/{b['building_id']}.json").write_text(json.dumps({"building":b,"rooms":values},ensure_ascii=False,indent=2),encoding="utf-8")
         (out/f"intraday/buildings/{b['building_id']}").mkdir(parents=True,exist_ok=True)
         (out/f"intraday/buildings/{b['building_id']}/{base:%Y-%m}.json").write_text(json.dumps(histories[b['building_id']],ensure_ascii=False),encoding="utf-8")
-        daily=[p for p in histories[b['building_id']] if p['slot'].endswith('00:00:00+08:00')]
+        daily=[p for p in histories[b['building_id']] if 'T23:' in p['slot']]
         (out/f"daily/buildings/{b['building_id']}.json").write_text(json.dumps(daily,ensure_ascii=False),encoding="utf-8")
     for campus in campuses:
-        rows=[p for b in buildings if b['campus_id']==campus['campus_id'] for p in histories[b['building_id']] if p['slot'].endswith('00:00:00+08:00')]
+        rows=[p for b in buildings if b['campus_id']==campus['campus_id'] for p in histories[b['building_id']] if 'T23:' in p['slot']]
         (out/f"daily/campuses/{campus['campus_id']}.json").write_text(json.dumps(rows,ensure_ascii=False),encoding="utf-8")
     overview={"generated_at":iso(now_shanghai()),"latest_slot":iso(base),"total_rooms":len(rooms),"successful_rooms":len(rooms)-1,"failed_rooms":1,"coverage":round((len(rooms)-1)/len(rooms),4),"status":"partial","campuses":campuses}
     (out/"latest/overview.json").write_text(json.dumps(overview,ensure_ascii=False,indent=2),encoding="utf-8")

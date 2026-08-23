@@ -11,7 +11,7 @@ const points = [
 describe('public consumption analytics', () => {
   it('treats drops as consumption and increases as recharge', () => {
     expect(consumptionDays(points)).toEqual([
-      { day: '2026-08-01', consumed: 2, recharged: 0, endBalance: 8 },
+      { day: '2026-08-01', consumed: 2, recharged: 1, endBalance: 9 },
       { day: '2026-08-02', consumed: 2, recharged: 0, endBalance: 7 },
     ]);
   });

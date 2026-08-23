@@ -13,7 +13,7 @@
       "name": "221",
       "balance_value": 61.96,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:12:22+08:00",
+      "last_updated": "2026-08-23T13:03:29+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -25,7 +25,7 @@
       "name": "223",
       "balance_value": 16.51,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:12:23+08:00",
+      "last_updated": "2026-08-23T13:03:29+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -35,9 +35,9 @@
       "building_id": "building-19",
       "floor": "2",
       "name": "225",
-      "balance_value": 49.33,
+      "balance_value": 48.94,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:12:23+08:00",
+      "last_updated": "2026-08-23T13:03:29+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -49,7 +49,7 @@
       "name": "227",
       "balance_value": 37.4,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:12:23+08:00",
+      "last_updated": "2026-08-23T13:03:29+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -61,7 +61,7 @@
       "name": "229",
       "balance_value": 2.72,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:12:23+08:00",
+      "last_updated": "2026-08-23T13:03:30+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -73,7 +73,7 @@
       "name": "231",
       "balance_value": 17.51,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:12:24+08:00",
+      "last_updated": "2026-08-23T13:03:30+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -85,7 +85,7 @@
       "name": "233",
       "balance_value": 5.85,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:12:24+08:00",
+      "last_updated": "2026-08-23T13:03:30+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -97,7 +97,7 @@
       "name": "321",
       "balance_value": 1.02,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:12:24+08:00",
+      "last_updated": "2026-08-23T13:03:30+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -107,9 +107,9 @@
       "building_id": "building-19",
       "floor": "3",
       "name": "323",
-      "balance_value": 53.89,
+      "balance_value": 53.25,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:12:25+08:00",
+      "last_updated": "2026-08-23T13:03:31+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -119,9 +119,9 @@
       "building_id": "building-19",
       "floor": "3",
       "name": "325",
-      "balance_value": 0.36,
+      "balance_value": 0.33,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:12:25+08:00",
+      "last_updated": "2026-08-23T13:03:31+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -133,7 +133,7 @@
       "name": "327",
       "balance_value": 93.52,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:12:25+08:00",
+      "last_updated": "2026-08-23T13:03:31+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -145,7 +145,7 @@
       "name": "329",
       "balance_value": 10.51,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:12:25+08:00",
+      "last_updated": "2026-08-23T13:03:31+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -157,7 +157,7 @@
       "name": "331",
       "balance_value": 10.15,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:12:26+08:00",
+      "last_updated": "2026-08-23T13:03:32+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -169,7 +169,7 @@
       "name": "333",
       "balance_value": 101.47,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:12:26+08:00",
+      "last_updated": "2026-08-23T13:03:32+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -181,7 +181,7 @@
       "name": "421",
       "balance_value": 28.69,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:12:26+08:00",
+      "last_updated": "2026-08-23T13:03:32+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -193,7 +193,7 @@
       "name": "423",
       "balance_value": 49.2,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:12:27+08:00",
+      "last_updated": "2026-08-23T13:03:32+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -205,7 +205,7 @@
       "name": "425",
       "balance_value": 176.33,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:12:27+08:00",
+      "last_updated": "2026-08-23T13:03:33+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -217,7 +217,7 @@
       "name": "427",
       "balance_value": 215.59,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:12:27+08:00",
+      "last_updated": "2026-08-23T13:03:33+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -229,7 +229,7 @@
       "name": "429",
       "balance_value": 19.98,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:12:27+08:00",
+      "last_updated": "2026-08-23T13:03:33+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -239,9 +239,9 @@
       "building_id": "building-19",
       "floor": "4",
       "name": "431",
-      "balance_value": 8.51,
+      "balance_value": 7.83,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:12:28+08:00",
+      "last_updated": "2026-08-23T13:03:33+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -253,7 +253,7 @@
       "name": "433",
       "balance_value": 3.16,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:12:28+08:00",
+      "last_updated": "2026-08-23T13:03:34+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -265,7 +265,7 @@
       "name": "521",
       "balance_value": 3.3,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:12:28+08:00",
+      "last_updated": "2026-08-23T13:03:34+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -277,7 +277,7 @@
       "name": "523",
       "balance_value": 32.73,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:12:29+08:00",
+      "last_updated": "2026-08-23T13:03:34+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -287,9 +287,9 @@
       "building_id": "building-19",
       "floor": "5",
       "name": "525",
-      "balance_value": 7.32,
+      "balance_value": 6.92,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:12:29+08:00",
+      "last_updated": "2026-08-23T13:03:34+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -299,9 +299,9 @@
       "building_id": "building-19",
       "floor": "5",
       "name": "527",
-      "balance_value": 58.17,
+      "balance_value": 57.84,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:12:29+08:00",
+      "last_updated": "2026-08-23T13:03:35+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -311,9 +311,9 @@
       "building_id": "building-19",
       "floor": "5",
       "name": "529",
-      "balance_value": 3.91,
+      "balance_value": 3.7,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:12:29+08:00",
+      "last_updated": "2026-08-23T13:03:35+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -325,7 +325,7 @@
       "name": "531",
       "balance_value": 22.83,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:12:30+08:00",
+      "last_updated": "2026-08-23T13:03:35+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -335,9 +335,9 @@
       "building_id": "building-19",
       "floor": "5",
       "name": "533",
-      "balance_value": 45.02,
+      "balance_value": 44.6,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:12:30+08:00",
+      "last_updated": "2026-08-23T13:03:35+08:00",
       "stale": false,
       "quality": "ok"
     }

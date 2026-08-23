@@ -13,7 +13,7 @@
       "name": "101",
       "balance_value": 69.58,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:29+08:00",
+      "last_updated": "2026-08-23T13:12:33+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -25,7 +25,7 @@
       "name": "102",
       "balance_value": 0.0,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:29+08:00",
+      "last_updated": "2026-08-23T13:12:33+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -37,7 +37,7 @@
       "name": "103",
       "balance_value": 0.07,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:29+08:00",
+      "last_updated": "2026-08-23T13:12:34+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -49,7 +49,7 @@
       "name": "104",
       "balance_value": 0.0,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:55+08:00",
+      "last_updated": "2026-08-23T13:12:56+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -61,7 +61,7 @@
       "name": "105",
       "balance_value": 1.39,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:30+08:00",
+      "last_updated": "2026-08-23T13:12:34+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -73,7 +73,7 @@
       "name": "106",
       "balance_value": 9.81,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:30+08:00",
+      "last_updated": "2026-08-23T13:12:34+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -85,7 +85,7 @@
       "name": "107",
       "balance_value": 3.25,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:30+08:00",
+      "last_updated": "2026-08-23T13:12:34+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -97,7 +97,7 @@
       "name": "108",
       "balance_value": 0.0,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:31+08:00",
+      "last_updated": "2026-08-23T13:12:35+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -109,7 +109,7 @@
       "name": "109",
       "balance_value": -0.08,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:31+08:00",
+      "last_updated": "2026-08-23T13:12:35+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -121,7 +121,7 @@
       "name": "110",
       "balance_value": -0.18,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:31+08:00",
+      "last_updated": "2026-08-23T13:12:35+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -133,7 +133,7 @@
       "name": "111",
       "balance_value": 0.04,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:31+08:00",
+      "last_updated": "2026-08-23T13:12:35+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -145,7 +145,7 @@
       "name": "112",
       "balance_value": -333.79,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:55+08:00",
+      "last_updated": "2026-08-23T13:12:57+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -157,7 +157,7 @@
       "name": "113",
       "balance_value": 4.23,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:32+08:00",
+      "last_updated": "2026-08-23T13:12:36+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -169,7 +169,7 @@
       "name": "114",
       "balance_value": 1219.41,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:56+08:00",
+      "last_updated": "2026-08-23T13:12:57+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -181,7 +181,7 @@
       "name": "115",
       "balance_value": -0.13,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:32+08:00",
+      "last_updated": "2026-08-23T13:12:36+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -193,7 +193,7 @@
       "name": "117",
       "balance_value": 1.54,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:32+08:00",
+      "last_updated": "2026-08-23T13:12:36+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -205,7 +205,7 @@
       "name": "201",
       "balance_value": 1.95,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:32+08:00",
+      "last_updated": "2026-08-23T13:12:36+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -217,7 +217,7 @@
       "name": "202",
       "balance_value": 9.02,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:33+08:00",
+      "last_updated": "2026-08-23T13:12:37+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -229,7 +229,7 @@
       "name": "203",
       "balance_value": 2.12,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:33+08:00",
+      "last_updated": "2026-08-23T13:12:37+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -241,7 +241,7 @@
       "name": "204",
       "balance_value": -0.11,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:33+08:00",
+      "last_updated": "2026-08-23T13:12:37+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -253,7 +253,7 @@
       "name": "205",
       "balance_value": -0.04,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:34+08:00",
+      "last_updated": "2026-08-23T13:12:37+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -265,7 +265,7 @@
       "name": "206",
       "balance_value": 0.04,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:34+08:00",
+      "last_updated": "2026-08-23T13:12:38+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -277,7 +277,7 @@
       "name": "207",
       "balance_value": 3.2,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:34+08:00",
+      "last_updated": "2026-08-23T13:12:38+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -289,7 +289,7 @@
       "name": "208",
       "balance_value": 0.02,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:34+08:00",
+      "last_updated": "2026-08-23T13:12:38+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -301,7 +301,7 @@
       "name": "209",
       "balance_value": 67.22,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:35+08:00",
+      "last_updated": "2026-08-23T13:12:38+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -313,7 +313,7 @@
       "name": "210",
       "balance_value": 2.68,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:35+08:00",
+      "last_updated": "2026-08-23T13:12:39+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -325,7 +325,7 @@
       "name": "211",
       "balance_value": 2.8,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:35+08:00",
+      "last_updated": "2026-08-23T13:12:39+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -337,7 +337,7 @@
       "name": "212",
       "balance_value": 45.15,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:36+08:00",
+      "last_updated": "2026-08-23T13:12:39+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -349,7 +349,7 @@
       "name": "213",
       "balance_value": 3.21,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:36+08:00",
+      "last_updated": "2026-08-23T13:12:39+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -361,7 +361,7 @@
       "name": "214",
       "balance_value": 0.57,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:36+08:00",
+      "last_updated": "2026-08-23T13:12:40+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -373,7 +373,7 @@
       "name": "215",
       "balance_value": 2.12,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:36+08:00",
+      "last_updated": "2026-08-23T13:12:40+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -385,7 +385,7 @@
       "name": "217",
       "balance_value": 12.41,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:37+08:00",
+      "last_updated": "2026-08-23T13:12:40+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -397,7 +397,7 @@
       "name": "301",
       "balance_value": 101.2,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:37+08:00",
+      "last_updated": "2026-08-23T13:12:40+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -409,7 +409,7 @@
       "name": "302",
       "balance_value": 5.35,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:37+08:00",
+      "last_updated": "2026-08-23T13:12:41+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -421,7 +421,7 @@
       "name": "303",
       "balance_value": -0.1,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:38+08:00",
+      "last_updated": "2026-08-23T13:12:41+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -433,7 +433,7 @@
       "name": "304",
       "balance_value": 2.43,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:38+08:00",
+      "last_updated": "2026-08-23T13:12:41+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -445,7 +445,7 @@
       "name": "305",
       "balance_value": 2.44,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:38+08:00",
+      "last_updated": "2026-08-23T13:12:41+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -457,7 +457,7 @@
       "name": "306",
       "balance_value": 11.98,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:38+08:00",
+      "last_updated": "2026-08-23T13:12:42+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -469,7 +469,7 @@
       "name": "307",
       "balance_value": 4.03,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:39+08:00",
+      "last_updated": "2026-08-23T13:12:42+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -481,7 +481,7 @@
       "name": "308",
       "balance_value": 1.6,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:39+08:00",
+      "last_updated": "2026-08-23T13:12:42+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -493,7 +493,7 @@
       "name": "309",
       "balance_value": 4.86,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:39+08:00",
+      "last_updated": "2026-08-23T13:12:42+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -505,7 +505,7 @@
       "name": "310",
       "balance_value": 24.52,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:40+08:00",
+      "last_updated": "2026-08-23T13:12:43+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -517,7 +517,7 @@
       "name": "311",
       "balance_value": 7.11,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:40+08:00",
+      "last_updated": "2026-08-23T13:12:43+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -529,7 +529,7 @@
       "name": "312",
       "balance_value": 3.19,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:40+08:00",
+      "last_updated": "2026-08-23T13:12:43+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -541,7 +541,7 @@
       "name": "313",
       "balance_value": 4.58,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:40+08:00",
+      "last_updated": "2026-08-23T13:12:43+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -553,7 +553,7 @@
       "name": "314",
       "balance_value": 16.9,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:41+08:00",
+      "last_updated": "2026-08-23T13:12:44+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -565,7 +565,7 @@
       "name": "315",
       "balance_value": 5.04,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:41+08:00",
+      "last_updated": "2026-08-23T13:12:44+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -577,7 +577,7 @@
       "name": "317",
       "balance_value": 10.55,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:41+08:00",
+      "last_updated": "2026-08-23T13:12:44+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -589,7 +589,7 @@
       "name": "401",
       "balance_value": 7.36,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:42+08:00",
+      "last_updated": "2026-08-23T13:12:44+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -601,7 +601,7 @@
       "name": "402",
       "balance_value": 1.12,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:42+08:00",
+      "last_updated": "2026-08-23T13:12:45+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -613,7 +613,7 @@
       "name": "403",
       "balance_value": 0.19,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:42+08:00",
+      "last_updated": "2026-08-23T13:12:45+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -625,7 +625,7 @@
       "name": "404",
       "balance_value": 10.04,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:42+08:00",
+      "last_updated": "2026-08-23T13:12:45+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -637,7 +637,7 @@
       "name": "405",
       "balance_value": 16.42,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:43+08:00",
+      "last_updated": "2026-08-23T13:12:45+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -649,7 +649,7 @@
       "name": "406",
       "balance_value": 4.71,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:43+08:00",
+      "last_updated": "2026-08-23T13:12:46+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -661,7 +661,7 @@
       "name": "407",
       "balance_value": 0.78,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:43+08:00",
+      "last_updated": "2026-08-23T13:12:46+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -673,7 +673,7 @@
       "name": "408",
       "balance_value": 0.06,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:44+08:00",
+      "last_updated": "2026-08-23T13:12:46+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -685,7 +685,7 @@
       "name": "409",
       "balance_value": 0.04,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:44+08:00",
+      "last_updated": "2026-08-23T13:12:46+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -697,7 +697,7 @@
       "name": "410",
       "balance_value": 2.78,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:44+08:00",
+      "last_updated": "2026-08-23T13:12:47+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -709,7 +709,7 @@
       "name": "411",
       "balance_value": 2.88,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:44+08:00",
+      "last_updated": "2026-08-23T13:12:47+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -721,7 +721,7 @@
       "name": "412",
       "balance_value": 4.54,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:45+08:00",
+      "last_updated": "2026-08-23T13:12:47+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -733,7 +733,7 @@
       "name": "413",
       "balance_value": 0.12,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:45+08:00",
+      "last_updated": "2026-08-23T13:12:47+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -745,7 +745,7 @@
       "name": "414",
       "balance_value": 0.0,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:45+08:00",
+      "last_updated": "2026-08-23T13:12:48+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -757,7 +757,7 @@
       "name": "415",
       "balance_value": -0.04,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:45+08:00",
+      "last_updated": "2026-08-23T13:12:48+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -769,7 +769,7 @@
       "name": "417",
       "balance_value": -0.04,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:46+08:00",
+      "last_updated": "2026-08-23T13:12:48+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -781,7 +781,7 @@
       "name": "501",
       "balance_value": -0.13,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:46+08:00",
+      "last_updated": "2026-08-23T13:12:48+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -793,7 +793,7 @@
       "name": "502",
       "balance_value": 4.75,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:46+08:00",
+      "last_updated": "2026-08-23T13:12:49+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -805,7 +805,7 @@
       "name": "503",
       "balance_value": 19.94,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:47+08:00",
+      "last_updated": "2026-08-23T13:12:49+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -817,7 +817,7 @@
       "name": "504",
       "balance_value": 0.52,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:47+08:00",
+      "last_updated": "2026-08-23T13:12:49+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -829,7 +829,7 @@
       "name": "505",
       "balance_value": 4.52,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:47+08:00",
+      "last_updated": "2026-08-23T13:12:49+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -841,7 +841,7 @@
       "name": "506",
       "balance_value": 0.19,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:47+08:00",
+      "last_updated": "2026-08-23T13:12:50+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -853,7 +853,7 @@
       "name": "507",
       "balance_value": 15.98,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:48+08:00",
+      "last_updated": "2026-08-23T13:12:50+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -865,7 +865,7 @@
       "name": "508",
       "balance_value": 9.94,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:48+08:00",
+      "last_updated": "2026-08-23T13:12:50+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -877,7 +877,7 @@
       "name": "509",
       "balance_value": -0.07,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:48+08:00",
+      "last_updated": "2026-08-23T13:12:50+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -889,7 +889,7 @@
       "name": "510",
       "balance_value": 11.12,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:49+08:00",
+      "last_updated": "2026-08-23T13:12:51+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -901,7 +901,7 @@
       "name": "511",
       "balance_value": 1.97,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:49+08:00",
+      "last_updated": "2026-08-23T13:12:51+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -913,7 +913,7 @@
       "name": "512",
       "balance_value": 2.77,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:49+08:00",
+      "last_updated": "2026-08-23T13:12:51+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -925,7 +925,7 @@
       "name": "513",
       "balance_value": 4.84,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:49+08:00",
+      "last_updated": "2026-08-23T13:12:51+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -937,7 +937,7 @@
       "name": "514",
       "balance_value": -0.22,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:50+08:00",
+      "last_updated": "2026-08-23T13:12:52+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -949,7 +949,7 @@
       "name": "515",
       "balance_value": 6.71,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:50+08:00",
+      "last_updated": "2026-08-23T13:12:52+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -961,7 +961,7 @@
       "name": "517",
       "balance_value": 8.67,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:50+08:00",
+      "last_updated": "2026-08-23T13:12:52+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -973,7 +973,7 @@
       "name": "601",
       "balance_value": 2.56,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:51+08:00",
+      "last_updated": "2026-08-23T13:12:52+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -985,7 +985,7 @@
       "name": "602",
       "balance_value": 0.09,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:51+08:00",
+      "last_updated": "2026-08-23T13:12:53+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -997,7 +997,7 @@
       "name": "603",
       "balance_value": 3.93,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:51+08:00",
+      "last_updated": "2026-08-23T13:12:53+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1009,7 +1009,7 @@
       "name": "604",
       "balance_value": 5.85,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:51+08:00",
+      "last_updated": "2026-08-23T13:12:53+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1021,7 +1021,7 @@
       "name": "605",
       "balance_value": 56.19,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:52+08:00",
+      "last_updated": "2026-08-23T13:12:53+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1033,7 +1033,7 @@
       "name": "606",
       "balance_value": -0.07,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:52+08:00",
+      "last_updated": "2026-08-23T13:12:54+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1045,7 +1045,7 @@
       "name": "607",
       "balance_value": 59.12,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:52+08:00",
+      "last_updated": "2026-08-23T13:12:54+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1057,7 +1057,7 @@
       "name": "608",
       "balance_value": 5.32,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:53+08:00",
+      "last_updated": "2026-08-23T13:12:54+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1069,7 +1069,7 @@
       "name": "609",
       "balance_value": -0.14,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:53+08:00",
+      "last_updated": "2026-08-23T13:12:54+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1081,7 +1081,7 @@
       "name": "610",
       "balance_value": 5.95,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:53+08:00",
+      "last_updated": "2026-08-23T13:12:55+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1093,7 +1093,7 @@
       "name": "611",
       "balance_value": 8.5,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:53+08:00",
+      "last_updated": "2026-08-23T13:12:55+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1105,7 +1105,7 @@
       "name": "612",
       "balance_value": 8.12,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:54+08:00",
+      "last_updated": "2026-08-23T13:12:55+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1117,7 +1117,7 @@
       "name": "613",
       "balance_value": -0.1,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:54+08:00",
+      "last_updated": "2026-08-23T13:12:55+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1129,7 +1129,7 @@
       "name": "614",
       "balance_value": 0.04,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:54+08:00",
+      "last_updated": "2026-08-23T13:12:56+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1141,7 +1141,7 @@
       "name": "615",
       "balance_value": 64.79,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:55+08:00",
+      "last_updated": "2026-08-23T13:12:56+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1153,7 +1153,7 @@
       "name": "617",
       "balance_value": 5.0,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-23T12:22:55+08:00",
+      "last_updated": "2026-08-23T13:12:56+08:00",
       "stale": false,
       "quality": "ok"
     }

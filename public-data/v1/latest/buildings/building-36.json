@@ -13,7 +13,7 @@
       "name": "N108",
       "balance_value": 1.79,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:35",
+      "last_updated": "2026-08-23T12:19:23+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -23,9 +23,9 @@
       "building_id": "building-36",
       "floor": "一层",
       "name": "N109",
-      "balance_value": 10.23,
+      "balance_value": 6.39,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:35",
+      "last_updated": "2026-08-23T12:19:23+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -37,7 +37,7 @@
       "name": "N110",
       "balance_value": 16.12,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:36",
+      "last_updated": "2026-08-23T12:19:24+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -47,9 +47,9 @@
       "building_id": "building-36",
       "floor": "一层",
       "name": "N111",
-      "balance_value": 48.02,
+      "balance_value": 47.31,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:36",
+      "last_updated": "2026-08-23T12:19:24+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -61,7 +61,7 @@
       "name": "N112",
       "balance_value": 266.93,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:36",
+      "last_updated": "2026-08-23T12:19:24+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -73,7 +73,7 @@
       "name": "N113",
       "balance_value": 30.98,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:36",
+      "last_updated": "2026-08-23T12:19:24+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -85,7 +85,7 @@
       "name": "N114",
       "balance_value": 7.26,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:37",
+      "last_updated": "2026-08-23T12:19:25+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -97,7 +97,7 @@
       "name": "N116",
       "balance_value": 9.29,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:37",
+      "last_updated": "2026-08-23T12:19:25+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -109,7 +109,7 @@
       "name": "N118",
       "balance_value": 140.8,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:37",
+      "last_updated": "2026-08-23T12:19:25+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -119,9 +119,9 @@
       "building_id": "building-36",
       "floor": "一层",
       "name": "N120",
-      "balance_value": 0.14,
+      "balance_value": 7.92,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:37",
+      "last_updated": "2026-08-23T12:19:25+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -133,7 +133,7 @@
       "name": "N122",
       "balance_value": 15.5,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:38",
+      "last_updated": "2026-08-23T12:19:26+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -145,7 +145,7 @@
       "name": "N124",
       "balance_value": 16.54,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:38",
+      "last_updated": "2026-08-23T12:19:26+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -157,7 +157,7 @@
       "name": "N126",
       "balance_value": 98.02,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:38",
+      "last_updated": "2026-08-23T12:19:26+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -167,9 +167,9 @@
       "building_id": "building-36",
       "floor": "一层",
       "name": "N128",
-      "balance_value": 0.8,
+      "balance_value": 8.82,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:38",
+      "last_updated": "2026-08-23T12:19:27+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -181,7 +181,7 @@
       "name": "N130",
       "balance_value": 8.03,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:39",
+      "last_updated": "2026-08-23T12:19:27+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -191,9 +191,9 @@
       "building_id": "building-36",
       "floor": "一层",
       "name": "N132",
-      "balance_value": 198.75,
+      "balance_value": 196.39,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:39",
+      "last_updated": "2026-08-23T12:19:27+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -203,9 +203,9 @@
       "building_id": "building-36",
       "floor": "二层",
       "name": "N201",
-      "balance_value": 206.19,
+      "balance_value": 201.99,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:40",
+      "last_updated": "2026-08-23T12:19:27+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -217,7 +217,7 @@
       "name": "N202",
       "balance_value": 25.06,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:40",
+      "last_updated": "2026-08-23T12:19:28+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -229,7 +229,7 @@
       "name": "N203",
       "balance_value": 34.23,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:40",
+      "last_updated": "2026-08-23T12:19:28+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -241,7 +241,7 @@
       "name": "N204",
       "balance_value": 208.88,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:40",
+      "last_updated": "2026-08-23T12:19:28+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -253,7 +253,7 @@
       "name": "N205",
       "balance_value": 26.88,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:41",
+      "last_updated": "2026-08-23T12:19:29+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -263,9 +263,9 @@
       "building_id": "building-36",
       "floor": "二层",
       "name": "N206",
-      "balance_value": 150.11,
+      "balance_value": 149.04,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:41",
+      "last_updated": "2026-08-23T12:19:29+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -275,9 +275,9 @@
       "building_id": "building-36",
       "floor": "二层",
       "name": "N207",
-      "balance_value": 11.22,
+      "balance_value": 10.15,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:41",
+      "last_updated": "2026-08-23T12:19:29+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -289,7 +289,7 @@
       "name": "N208",
       "balance_value": 145.62,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:41",
+      "last_updated": "2026-08-23T12:19:29+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -299,9 +299,9 @@
       "building_id": "building-36",
       "floor": "二层",
       "name": "N209",
-      "balance_value": 76.4,
+      "balance_value": 72.73,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:42",
+      "last_updated": "2026-08-23T12:19:30+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -311,9 +311,9 @@
       "building_id": "building-36",
       "floor": "二层",
       "name": "N210",
-      "balance_value": 70.2,
+      "balance_value": 66.32,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:42",
+      "last_updated": "2026-08-23T12:19:30+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -323,9 +323,9 @@
       "building_id": "building-36",
       "floor": "二层",
       "name": "N211",
-      "balance_value": 13.53,
+      "balance_value": 10.34,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:42",
+      "last_updated": "2026-08-23T12:19:30+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -337,7 +337,7 @@
       "name": "N212",
       "balance_value": 2.03,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:42",
+      "last_updated": "2026-08-23T12:19:31+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -349,7 +349,7 @@
       "name": "N213",
       "balance_value": 11.7,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:43",
+      "last_updated": "2026-08-23T12:19:31+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -359,9 +359,9 @@
       "building_id": "building-36",
       "floor": "二层",
       "name": "N214",
-      "balance_value": 21.81,
+      "balance_value": 21.71,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:43",
+      "last_updated": "2026-08-23T12:19:31+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -373,7 +373,7 @@
       "name": "N216",
       "balance_value": 487.91,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:43",
+      "last_updated": "2026-08-23T12:19:31+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -383,9 +383,9 @@
       "building_id": "building-36",
       "floor": "二层",
       "name": "N218",
-      "balance_value": 37.63,
+      "balance_value": 32.06,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:43",
+      "last_updated": "2026-08-23T12:19:32+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -397,7 +397,7 @@
       "name": "N220",
       "balance_value": 108.31,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:44",
+      "last_updated": "2026-08-23T12:19:32+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -409,7 +409,7 @@
       "name": "N222",
       "balance_value": 1.18,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:44",
+      "last_updated": "2026-08-23T12:19:32+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -421,7 +421,7 @@
       "name": "N224",
       "balance_value": 9.75,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:44",
+      "last_updated": "2026-08-23T12:19:33+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -433,7 +433,7 @@
       "name": "N226",
       "balance_value": 13.73,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:44",
+      "last_updated": "2026-08-23T12:19:33+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -445,7 +445,7 @@
       "name": "N228",
       "balance_value": 8.82,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:45",
+      "last_updated": "2026-08-23T12:19:33+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -457,7 +457,7 @@
       "name": "N230",
       "balance_value": 5.46,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:45",
+      "last_updated": "2026-08-23T12:19:33+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -469,7 +469,7 @@
       "name": "N232",
       "balance_value": 165.04,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:45",
+      "last_updated": "2026-08-23T12:19:34+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -481,7 +481,7 @@
       "name": "N301",
       "balance_value": 38.17,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:46",
+      "last_updated": "2026-08-23T12:19:34+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -491,9 +491,9 @@
       "building_id": "building-36",
       "floor": "三层",
       "name": "N302",
-      "balance_value": 52.65,
+      "balance_value": 49.33,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:47",
+      "last_updated": "2026-08-23T12:19:34+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -505,7 +505,7 @@
       "name": "N303",
       "balance_value": 10.56,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:47",
+      "last_updated": "2026-08-23T12:19:35+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -517,7 +517,7 @@
       "name": "N304",
       "balance_value": 38.88,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:47",
+      "last_updated": "2026-08-23T12:19:35+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -529,7 +529,7 @@
       "name": "N305",
       "balance_value": 26.05,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:47",
+      "last_updated": "2026-08-23T12:19:35+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -541,7 +541,7 @@
       "name": "N306",
       "balance_value": 62.76,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:47",
+      "last_updated": "2026-08-23T12:19:35+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -551,9 +551,9 @@
       "building_id": "building-36",
       "floor": "三层",
       "name": "N307",
-      "balance_value": 10.47,
+      "balance_value": 6.43,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:47",
+      "last_updated": "2026-08-23T12:19:36+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -565,7 +565,7 @@
       "name": "N308",
       "balance_value": 57.87,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:48",
+      "last_updated": "2026-08-23T12:19:36+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -577,7 +577,7 @@
       "name": "N309",
       "balance_value": 88.78,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:48",
+      "last_updated": "2026-08-23T12:19:36+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -589,7 +589,7 @@
       "name": "N310",
       "balance_value": 80.42,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:48",
+      "last_updated": "2026-08-23T12:19:37+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -601,7 +601,7 @@
       "name": "N311",
       "balance_value": 7.58,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:48",
+      "last_updated": "2026-08-23T12:19:37+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -611,9 +611,9 @@
       "building_id": "building-36",
       "floor": "三层",
       "name": "N312",
-      "balance_value": 7.88,
+      "balance_value": 6.81,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:49",
+      "last_updated": "2026-08-23T12:19:37+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -623,9 +623,9 @@
       "building_id": "building-36",
       "floor": "三层",
       "name": "N313",
-      "balance_value": 137.06,
+      "balance_value": 137.02,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:49",
+      "last_updated": "2026-08-23T12:19:37+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -637,7 +637,7 @@
       "name": "N314",
       "balance_value": 126.79,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:49",
+      "last_updated": "2026-08-23T12:19:38+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -649,7 +649,7 @@
       "name": "N316",
       "balance_value": 153.95,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:49",
+      "last_updated": "2026-08-23T12:19:38+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -661,7 +661,7 @@
       "name": "N318",
       "balance_value": 464.35,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:50",
+      "last_updated": "2026-08-23T12:19:38+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -673,7 +673,7 @@
       "name": "N320",
       "balance_value": 1.35,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:50",
+      "last_updated": "2026-08-23T12:19:38+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -683,9 +683,9 @@
       "building_id": "building-36",
       "floor": "三层",
       "name": "N322",
-      "balance_value": 40.12,
+      "balance_value": 36.0,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:50",
+      "last_updated": "2026-08-23T12:19:39+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -697,7 +697,7 @@
       "name": "N324",
       "balance_value": 26.87,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:50",
+      "last_updated": "2026-08-23T12:19:39+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -709,7 +709,7 @@
       "name": "N326",
       "balance_value": 40.79,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:51",
+      "last_updated": "2026-08-23T12:19:39+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -721,7 +721,7 @@
       "name": "N328",
       "balance_value": 1.74,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:51",
+      "last_updated": "2026-08-23T12:19:40+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -733,7 +733,7 @@
       "name": "N330",
       "balance_value": 186.77,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:51",
+      "last_updated": "2026-08-23T12:19:40+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -743,9 +743,9 @@
       "building_id": "building-36",
       "floor": "三层",
       "name": "N332",
-      "balance_value": 9.18,
+      "balance_value": 5.19,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:51",
+      "last_updated": "2026-08-23T12:19:40+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -757,7 +757,7 @@
       "name": "N401",
       "balance_value": 16.87,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:53",
+      "last_updated": "2026-08-23T12:19:40+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -769,7 +769,7 @@
       "name": "N402",
       "balance_value": 141.82,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:53",
+      "last_updated": "2026-08-23T12:19:41+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -779,9 +779,9 @@
       "building_id": "building-36",
       "floor": "四层",
       "name": "N403",
-      "balance_value": 177.78,
+      "balance_value": 174.14,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:53",
+      "last_updated": "2026-08-23T12:19:41+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -791,9 +791,9 @@
       "building_id": "building-36",
       "floor": "四层",
       "name": "N404",
-      "balance_value": 0.0,
+      "balance_value": 2.44,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:53",
+      "last_updated": "2026-08-23T12:19:41+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -805,7 +805,7 @@
       "name": "N405",
       "balance_value": 281.0,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:53",
+      "last_updated": "2026-08-23T12:19:42+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -815,9 +815,9 @@
       "building_id": "building-36",
       "floor": "四层",
       "name": "N406",
-      "balance_value": 19.5,
+      "balance_value": 16.12,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:53",
+      "last_updated": "2026-08-23T12:19:42+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -827,9 +827,9 @@
       "building_id": "building-36",
       "floor": "四层",
       "name": "N407",
-      "balance_value": 13.59,
+      "balance_value": 9.53,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:54",
+      "last_updated": "2026-08-23T12:19:42+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -841,7 +841,7 @@
       "name": "N408",
       "balance_value": 1.69,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:54",
+      "last_updated": "2026-08-23T12:19:42+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -851,9 +851,9 @@
       "building_id": "building-36",
       "floor": "四层",
       "name": "N409",
-      "balance_value": 269.5,
+      "balance_value": 265.87,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:54",
+      "last_updated": "2026-08-23T12:19:43+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -865,7 +865,7 @@
       "name": "N410",
       "balance_value": 75.41,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:54",
+      "last_updated": "2026-08-23T12:19:43+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -875,9 +875,9 @@
       "building_id": "building-36",
       "floor": "四层",
       "name": "N411",
-      "balance_value": 8.01,
+      "balance_value": 5.35,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:55",
+      "last_updated": "2026-08-23T12:19:43+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -887,9 +887,9 @@
       "building_id": "building-36",
       "floor": "四层",
       "name": "N412",
-      "balance_value": 11.89,
+      "balance_value": 9.72,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:55",
+      "last_updated": "2026-08-23T12:19:44+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -901,7 +901,7 @@
       "name": "N413",
       "balance_value": 447.39,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:55",
+      "last_updated": "2026-08-23T12:19:44+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -911,9 +911,9 @@
       "building_id": "building-36",
       "floor": "四层",
       "name": "N414",
-      "balance_value": 146.45,
+      "balance_value": 143.61,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:55",
+      "last_updated": "2026-08-23T12:19:44+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -923,9 +923,9 @@
       "building_id": "building-36",
       "floor": "四层",
       "name": "N416",
-      "balance_value": 14.3,
+      "balance_value": 8.33,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:56",
+      "last_updated": "2026-08-23T12:19:44+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -937,7 +937,7 @@
       "name": "N418",
       "balance_value": 51.42,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:56",
+      "last_updated": "2026-08-23T12:19:45+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -949,7 +949,7 @@
       "name": "N420",
       "balance_value": 18.69,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:56",
+      "last_updated": "2026-08-23T12:19:45+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -961,7 +961,7 @@
       "name": "N422",
       "balance_value": 117.92,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:56",
+      "last_updated": "2026-08-23T12:19:45+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -971,9 +971,9 @@
       "building_id": "building-36",
       "floor": "四层",
       "name": "N424",
-      "balance_value": 144.76,
+      "balance_value": 141.26,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:57",
+      "last_updated": "2026-08-23T12:19:46+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -985,7 +985,7 @@
       "name": "N426",
       "balance_value": 3.91,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:57",
+      "last_updated": "2026-08-23T12:19:46+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -997,7 +997,7 @@
       "name": "N428",
       "balance_value": 5.89,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:57",
+      "last_updated": "2026-08-23T12:19:46+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1009,7 +1009,7 @@
       "name": "N430",
       "balance_value": 169.72,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:57",
+      "last_updated": "2026-08-23T12:19:46+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1021,7 +1021,7 @@
       "name": "N432",
       "balance_value": 11.58,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:58",
+      "last_updated": "2026-08-23T12:19:47+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1033,7 +1033,7 @@
       "name": "N501",
       "balance_value": 172.34,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:59",
+      "last_updated": "2026-08-23T12:19:47+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1045,7 +1045,7 @@
       "name": "N502",
       "balance_value": 72.14,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:59",
+      "last_updated": "2026-08-23T12:19:47+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1057,7 +1057,7 @@
       "name": "N503",
       "balance_value": 67.87,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:59",
+      "last_updated": "2026-08-23T12:19:48+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1067,9 +1067,9 @@
       "building_id": "building-36",
       "floor": "五层",
       "name": "N504",
-      "balance_value": 10.15,
+      "balance_value": 5.09,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:59",
+      "last_updated": "2026-08-23T12:19:48+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1081,7 +1081,7 @@
       "name": "N505",
       "balance_value": 265.6,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:59",
+      "last_updated": "2026-08-23T12:19:48+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1093,7 +1093,7 @@
       "name": "N506",
       "balance_value": 96.14,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:00",
+      "last_updated": "2026-08-23T12:19:48+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1105,7 +1105,7 @@
       "name": "N507",
       "balance_value": 59.18,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:00",
+      "last_updated": "2026-08-23T12:19:49+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1117,7 +1117,7 @@
       "name": "N508",
       "balance_value": 14.19,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:00",
+      "last_updated": "2026-08-23T12:19:49+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1129,7 +1129,7 @@
       "name": "N509",
       "balance_value": 4.48,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:00",
+      "last_updated": "2026-08-23T12:19:49+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1139,9 +1139,9 @@
       "building_id": "building-36",
       "floor": "五层",
       "name": "N510",
-      "balance_value": 27.06,
+      "balance_value": 24.39,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:01",
+      "last_updated": "2026-08-23T12:19:50+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1153,7 +1153,7 @@
       "name": "N511",
       "balance_value": 155.02,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:01",
+      "last_updated": "2026-08-23T12:19:50+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1165,7 +1165,7 @@
       "name": "N512",
       "balance_value": 88.26,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:01",
+      "last_updated": "2026-08-23T12:19:50+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1175,9 +1175,9 @@
       "building_id": "building-36",
       "floor": "五层",
       "name": "N513",
-      "balance_value": 42.5,
+      "balance_value": 35.07,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:01",
+      "last_updated": "2026-08-23T12:19:50+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1189,7 +1189,7 @@
       "name": "N514",
       "balance_value": 27.11,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:02",
+      "last_updated": "2026-08-23T12:19:51+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1199,9 +1199,9 @@
       "building_id": "building-36",
       "floor": "五层",
       "name": "N516",
-      "balance_value": 72.62,
+      "balance_value": 70.7,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:02",
+      "last_updated": "2026-08-23T12:19:51+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1213,7 +1213,7 @@
       "name": "N518",
       "balance_value": 119.11,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:02",
+      "last_updated": "2026-08-23T12:19:51+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1225,7 +1225,7 @@
       "name": "N520",
       "balance_value": 62.83,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:02",
+      "last_updated": "2026-08-23T12:19:52+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1235,9 +1235,9 @@
       "building_id": "building-36",
       "floor": "五层",
       "name": "N522",
-      "balance_value": 49.53,
+      "balance_value": 47.05,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:03",
+      "last_updated": "2026-08-23T12:19:52+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1249,7 +1249,7 @@
       "name": "N524",
       "balance_value": 41.06,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:03",
+      "last_updated": "2026-08-23T12:19:52+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1261,7 +1261,7 @@
       "name": "N526",
       "balance_value": 7.63,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:03",
+      "last_updated": "2026-08-23T12:19:52+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1273,7 +1273,7 @@
       "name": "N528",
       "balance_value": 5.58,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:03",
+      "last_updated": "2026-08-23T12:19:53+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1285,7 +1285,7 @@
       "name": "N530",
       "balance_value": 62.37,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:04",
+      "last_updated": "2026-08-23T12:19:53+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1295,9 +1295,9 @@
       "building_id": "building-36",
       "floor": "五层",
       "name": "N532",
-      "balance_value": 171.05,
+      "balance_value": 168.21,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:04",
+      "last_updated": "2026-08-23T12:19:53+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1307,9 +1307,9 @@
       "building_id": "building-36",
       "floor": "六层",
       "name": "N601",
-      "balance_value": 12.91,
+      "balance_value": 6.22,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:05",
+      "last_updated": "2026-08-23T12:19:53+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1321,7 +1321,7 @@
       "name": "N602",
       "balance_value": 25.49,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:05",
+      "last_updated": "2026-08-23T12:19:54+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1333,7 +1333,7 @@
       "name": "N603",
       "balance_value": 91.31,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:05",
+      "last_updated": "2026-08-23T12:19:54+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1345,7 +1345,7 @@
       "name": "N604",
       "balance_value": 37.85,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:06",
+      "last_updated": "2026-08-23T12:19:54+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1357,7 +1357,7 @@
       "name": "N605",
       "balance_value": 227.81,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:06",
+      "last_updated": "2026-08-23T12:19:55+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1369,7 +1369,7 @@
       "name": "N606",
       "balance_value": 0.73,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:06",
+      "last_updated": "2026-08-23T12:19:55+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1381,7 +1381,7 @@
       "name": "N607",
       "balance_value": 13.2,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:06",
+      "last_updated": "2026-08-23T12:19:55+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1393,7 +1393,7 @@
       "name": "N608",
       "balance_value": 125.8,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:07",
+      "last_updated": "2026-08-23T12:19:55+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1405,7 +1405,7 @@
       "name": "N609",
       "balance_value": 7.77,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:07",
+      "last_updated": "2026-08-23T12:19:56+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1417,7 +1417,7 @@
       "name": "N610",
       "balance_value": 3.98,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:07",
+      "last_updated": "2026-08-23T12:19:56+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1429,7 +1429,7 @@
       "name": "N611",
       "balance_value": 4.24,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:07",
+      "last_updated": "2026-08-23T12:19:56+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1441,7 +1441,7 @@
       "name": "N612",
       "balance_value": 128.97,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:08",
+      "last_updated": "2026-08-23T12:19:57+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1453,7 +1453,7 @@
       "name": "N613",
       "balance_value": 31.15,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:08",
+      "last_updated": "2026-08-23T12:19:57+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1465,7 +1465,7 @@
       "name": "N614",
       "balance_value": 14.06,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:08",
+      "last_updated": "2026-08-23T12:19:57+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1477,7 +1477,7 @@
       "name": "N616",
       "balance_value": 105.05,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:08",
+      "last_updated": "2026-08-23T12:19:57+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1487,9 +1487,9 @@
       "building_id": "building-36",
       "floor": "六层",
       "name": "N618",
-      "balance_value": 14.0,
+      "balance_value": 13.99,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:09",
+      "last_updated": "2026-08-23T12:19:58+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1501,7 +1501,7 @@
       "name": "N620",
       "balance_value": 8.81,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:09",
+      "last_updated": "2026-08-23T12:19:58+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1513,7 +1513,7 @@
       "name": "N622",
       "balance_value": 48.67,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:09",
+      "last_updated": "2026-08-23T12:19:58+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1523,9 +1523,9 @@
       "building_id": "building-36",
       "floor": "六层",
       "name": "N624",
-      "balance_value": 48.31,
+      "balance_value": 45.94,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:09",
+      "last_updated": "2026-08-23T12:19:59+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1537,7 +1537,7 @@
       "name": "N626",
       "balance_value": 21.02,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:10",
+      "last_updated": "2026-08-23T12:19:59+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1549,7 +1549,7 @@
       "name": "N628",
       "balance_value": 4.33,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:10",
+      "last_updated": "2026-08-23T12:19:59+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1561,7 +1561,7 @@
       "name": "N630",
       "balance_value": 161.87,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:10",
+      "last_updated": "2026-08-23T12:19:59+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1573,7 +1573,7 @@
       "name": "N632",
       "balance_value": 14.19,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:55:10",
+      "last_updated": "2026-08-23T12:20:00+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1585,7 +1585,7 @@
       "name": "公共间105仓库",
       "balance_value": -26.29,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:33",
+      "last_updated": "2026-08-23T12:19:20+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1597,7 +1597,7 @@
       "name": "公共间125值班室",
       "balance_value": -683.98,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:33",
+      "last_updated": "2026-08-23T12:19:20+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1607,9 +1607,9 @@
       "building_id": "building-36",
       "floor": "一层",
       "name": "公共间153",
-      "balance_value": -857.02,
+      "balance_value": -859.56,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:33",
+      "last_updated": "2026-08-23T12:19:20+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1621,7 +1621,7 @@
       "name": "公共间保洁间",
       "balance_value": 143.0,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:33",
+      "last_updated": "2026-08-23T12:19:21+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1631,9 +1631,9 @@
       "building_id": "building-36",
       "floor": "一层",
       "name": "公共间门卫1",
-      "balance_value": -2520.47,
+      "balance_value": -2528.52,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:33",
+      "last_updated": "2026-08-23T12:19:21+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1643,9 +1643,9 @@
       "building_id": "building-36",
       "floor": "一层",
       "name": "公共间门卫1对面",
-      "balance_value": -318.05,
+      "balance_value": -318.58,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:34",
+      "last_updated": "2026-08-23T12:19:21+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1657,7 +1657,7 @@
       "name": "空",
       "balance_value": 129.52,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:34",
+      "last_updated": "2026-08-23T12:19:22+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1669,7 +1669,7 @@
       "name": "空1",
       "balance_value": 111.08,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:34",
+      "last_updated": "2026-08-23T12:19:22+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1681,7 +1681,7 @@
       "name": "空2",
       "balance_value": 143.0,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:34",
+      "last_updated": "2026-08-23T12:19:22+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1693,7 +1693,7 @@
       "name": "空3",
       "balance_value": 27.0,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:35",
+      "last_updated": "2026-08-23T12:19:22+08:00",
       "stale": false,
       "quality": "ok"
     },
@@ -1705,7 +1705,7 @@
       "name": "空4",
       "balance_value": 143.0,
       "balance_unit": "unknown",
-      "last_updated": "2026-08-22T22:54:35",
+      "last_updated": "2026-08-23T12:19:23+08:00",
       "stale": false,
       "quality": "ok"
     }

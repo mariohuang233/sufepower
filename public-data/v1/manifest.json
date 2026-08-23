@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
-  "data_version": "20260823T111",
-  "latest_slot": "2026-08-22T20:00:00+08:00",
-  "sampled_at": "2026-08-23T11:17:46+08:00",
-  "total_rooms": 4880,
-  "successful_rooms": 4880,
+  "data_version": "20260823T122",
+  "latest_slot": "2026-08-23T12:00:00+08:00",
+  "sampled_at": "2026-08-23T12:28:37+08:00",
+  "total_rooms": 4905,
+  "successful_rooms": 4905,
   "failed_rooms": 0,
   "coverage": 1.0,
   "status": "healthy",
-  "oldest_intraday_date": "2026-08-22",
-  "generated_at": "2026-08-23T11:17:46+08:00"
+  "oldest_intraday_date": "2026-08-23",
+  "generated_at": "2026-08-23T12:28:37+08:00"
 }

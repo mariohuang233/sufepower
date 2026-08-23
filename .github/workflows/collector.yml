@@ -1,24 +1,94 @@
 name: private collection
+
 on:
-  schedule: [{cron: '23 */4 * * *'}]
+  # GitHub cron uses UTC: 00:23, 04:23, 08:23, 12:23, 16:23 and 20:23
+  # in Asia/Shanghai are 16,20,0,4,8,12 UTC respectively.
+  schedule:
+    - cron: '23 16,20,0,4,8,12 * * *'
   workflow_dispatch:
+    inputs:
+      publish:
+        description: Publish the sanitized public-data snapshot
+        required: false
+        default: true
+        type: boolean
+
 concurrency:
   group: sufe-ems-collection
   cancel-in-progress: false
-permissions: {contents: read, issues: write}
+
+permissions:
+  contents: write
+
 jobs:
   collect:
+    # Keep this on the approved runner/network. Credentials stay in Secrets.
     runs-on: self-hosted
     timeout-minutes: 210
+    env:
+      TZ: Asia/Shanghai
+      SUFE_EMS_TOKEN: ${{ secrets.SUFE_EMS_TOKEN }}
+      SUFE_EMS_COOKIE: ${{ secrets.SUFE_EMS_COOKIE }}
+      SUFE_EMS_REFERER: ${{ secrets.SUFE_EMS_REFERER }}
+      SUFE_REQUESTS_PER_SECOND: '10'
+      SUFE_ALLOW_HIGH_RATE: 'true'
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with: {python-version: '3.12', cache: pip}
-      - run: pip install -r requirements.txt
-      - run: python -m collector collect --slot now
-        env:
-          SUFE_EMS_TOKEN: '${{ secrets.SUFE_EMS_TOKEN }}'
-          SUFE_EMS_COOKIE: '${{ secrets.SUFE_EMS_COOKIE }}'
-          SUFE_EMS_REFERER: '${{ secrets.SUFE_EMS_REFERER }}'
-      - run: python -m collector export
-      - run: python scripts/validate_public.py
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          persist-credentials: true
+
+      - name: Check required secret without printing it
+        shell: pwsh
+        run: |
+          if ([string]::IsNullOrWhiteSpace($env:SUFE_EMS_TOKEN)) {
+            throw 'SUFE_EMS_TOKEN is not configured in GitHub Secrets'
+          }
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Collect into private SQLite
+        run: python -m collector collect --slot now
+
+      - name: Export and validate sanitized public data
+        run: |
+          python -m collector export
+          python scripts/validate_public.py
+
+      - name: Commit and publish public data
+        if: ${{ github.event_name == 'schedule' || inputs.publish == true }}
+        shell: pwsh
+        run: |
+          git config user.name 'sufe-power-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          # Intraday is ignored for ordinary local runs, but it is required by
+          # the public trend page and is safe only after exporter validation.
+          git add public-data/v1
+          if (Test-Path public-data/v1/intraday) {
+            git add -f public-data/v1/intraday
+          }
+          if (git diff --cached --quiet) {
+            Write-Host 'No public data changes to publish'
+            exit 0
+          }
+          git commit -m "data: publish collection $(Get-Date -Format yyyy-MM-ddTHH:mm:ssK)"
+          git push origin HEAD:main
+
+      - name: Upload private run diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: collection-run-${{ github.run_id }}
+          path: |
+            var/logs/
+            var/sufeelec.db
+          if-no-files-found: ignore
+          retention-days: 7

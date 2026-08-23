@@ -22,8 +22,8 @@ permissions:
 
 jobs:
   collect:
-    # Keep this on the approved runner/network. Credentials stay in Secrets.
-    runs-on: self-hosted
+    # GitHub creates a fresh cloud VM for each run. Credentials stay in Secrets.
+    runs-on: ubuntu-latest
     timeout-minutes: 210
     env:
       TZ: Asia/Shanghai
@@ -40,11 +40,12 @@ jobs:
           persist-credentials: true
 
       - name: Check required secret without printing it
-        shell: pwsh
+        shell: bash
         run: |
-          if ([string]::IsNullOrWhiteSpace($env:SUFE_EMS_TOKEN)) {
-            throw 'SUFE_EMS_TOKEN is not configured in GitHub Secrets'
-          }
+          if [ -z "${SUFE_EMS_TOKEN:-}" ]; then
+            echo 'SUFE_EMS_TOKEN is not configured in GitHub Secrets' >&2
+            exit 1
+          fi
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -65,30 +66,28 @@ jobs:
 
       - name: Commit and publish public data
         if: ${{ github.event_name == 'schedule' || inputs.publish == true }}
-        shell: pwsh
+        shell: bash
         run: |
           git config user.name 'sufe-power-bot'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           # Intraday is ignored for ordinary local runs, but it is required by
           # the public trend page and is safe only after exporter validation.
           git add public-data/v1
-          if (Test-Path public-data/v1/intraday) {
+          if [ -d public-data/v1/intraday ]; then
             git add -f public-data/v1/intraday
-          }
-          if (git diff --cached --quiet) {
-            Write-Host 'No public data changes to publish'
+          fi
+          if git diff --cached --quiet; then
+            echo 'No public data changes to publish'
             exit 0
-          }
-          git commit -m "data: publish collection $(Get-Date -Format yyyy-MM-ddTHH:mm:ssK)"
+          fi
+          git commit -m "data: publish collection $(date --iso-8601=seconds)"
           git push origin HEAD:main
 
-      - name: Upload private run diagnostics
+      - name: Upload non-sensitive run logs
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: collection-run-${{ github.run_id }}
-          path: |
-            var/logs/
-            var/sufeelec.db
+          path: var/logs/
           if-no-files-found: ignore
           retention-days: 7

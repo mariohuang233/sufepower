@@ -10,3 +10,7 @@
 首次启用前需要在仓库 Settings → Actions → General 将 Workflow permissions 设为允许读写 repository contents，并配置 `SUFE_EMS_TOKEN`、`SUFE_EMS_COOKIE`、`SUFE_EMS_REFERER` 三个 Secrets。之后可在 Actions → private collection → Run workflow 手动执行；手动执行默认也会发布，若只想验证采集和校验，可将 `publish` 设为 false。每次运行保留 7 天私有 SQLite/日志诊断 artifact，公开数据中不会包含这些内容。
 
 GitHub Actions 的 cron 使用 UTC，workflow 已换算为上海时区；GitHub 可能对整点附近的 scheduled workflow 延迟，手动执行可用于立即验证。GitHub-hosted runner 的公网出口 IP 可能变化，如果 EMS 或学校网络设置了 IP 白名单，`ubuntu-latest` 可能无法访问，此时需要获得 EMS 管理方允许的固定出口云主机或云端 self-hosted runner。采集失败、HTTP 401/403/429 或公开数据校验失败时不会推送 `public-data`。
+
+# GitHub Pages
+
+在仓库 Settings → Pages → Build and deployment → Source 中选择 `GitHub Actions`。`pages.yml` 会在 `main` 更新后自动安装 site 依赖、执行 TypeScript/Vite 构建、上传 `site/dist` artifact 并部署到 `github-pages` environment；首次部署可能需要等待 GitHub 创建 Pages 环境。部署成功后，地址通常是 `https://<账号>.github.io/<仓库名>/`，可从 Actions 的 deploy job 输出 URL 打开。

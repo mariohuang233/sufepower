@@ -1,9 +1,16 @@
 name: deploy static site
-on: {workflow_dispatch: {}, push: {branches: [main]}}
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+  workflow_run:
+    workflows: ["private collection"]
+    types: [completed]
 permissions: {contents: read, pages: write, id-token: write}
 concurrency: {group: pages, cancel-in-progress: false}
 jobs:
   build:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

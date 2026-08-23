@@ -1,0 +1,77 @@
+from __future__ import annotations
+import json, os, shutil, tempfile
+from pathlib import Path
+from .config import PUBLIC, VAR
+from .db import connect
+from .timeutils import iso, now_shanghai
+
+FORBIDDEN=("entityacctid","acctno","devno","Authorization","Cookie","Token","手机号","用户名")
+
+def _write(path: Path, value) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(value,ensure_ascii=False,indent=2),encoding="utf-8")
+
+def export_public(db_path: Path=VAR/"sufeelec.db", target: Path=PUBLIC) -> Path:
+    """Build a complete public view in a staging directory; no private IDs leave this function."""
+    with connect(db_path) as conn:
+        registry=[dict(x) for x in conn.execute("SELECT room_id,campus,building,floor,room,last_confirmed_at FROM room_registry WHERE active=1 ORDER BY campus,building,room")]
+        snapshots=[dict(x) for x in conn.execute("SELECT s.* FROM snapshots s JOIN room_registry r ON r.room_id=s.room_id WHERE r.active=1 ORDER BY s.sampled_at")]
+    campuses=[]; campus_ids={}; buildings=[]; building_ids={}
+    for row in registry:
+        if row["campus"] not in campus_ids:
+            cid="campus-"+str(len(campus_ids)+1); campus_ids[row["campus"]]=cid; campuses.append({"campus_id":cid,"name":row["campus"]})
+        key=(row["campus"],row["building"])
+        if key not in building_ids:
+            bid="building-"+str(len(building_ids)+1); building_ids[key]=bid; buildings.append({"building_id":bid,"campus_id":campus_ids[row["campus"]],"name":row["building"]})
+    latest={}
+    for snap in snapshots: latest[snap["room_id"]]=snap
+    rooms=[]
+    for row in registry:
+        snap=latest.get(row["room_id"]); rooms.append({"room_id":row["room_id"],"campus_id":campus_ids[row["campus"]],"building_id":building_ids[(row["campus"],row["building"])],"floor":row["floor"],"name":row["room"],"balance_value":snap["balance_value"] if snap else None,"balance_unit":snap["balance_unit"] if snap else "unknown","last_updated":snap["sampled_at"] if snap else row["last_confirmed_at"],"stale":snap is None,"quality":snap["quality"] if snap else "missing"})
+    successful=sum(1 for x in rooms if not x["stale"]); total=len(rooms); cov=successful/total if total else 0; status="healthy" if cov>=.98 else "partial" if cov>=.9 else "blocked"
+    latest_slot=max((x["slot"] for x in snapshots),default=None); generated=iso(now_shanghai())
+    stage=Path(tempfile.mkdtemp(prefix="sufeelec-public-",dir=str(target.parent)))/"v1"; stage.mkdir(parents=True)
+    _write(stage/"registry/campuses.json",campuses); _write(stage/"registry/buildings.json",buildings); _write(stage/"registry/rooms.json",rooms)
+    room_building={x["room_id"]:x["building_id"] for x in rooms}
+    for building in buildings:
+        _write(stage/f"latest/buildings/{building['building_id']}.json",{"building":building,"rooms":[x for x in rooms if x["building_id"]==building["building_id"]]})
+    # Publish only sanitized historical measurements; no private registry columns are copied.
+    history_by_building={}
+    for snap in snapshots:
+        bid=room_building.get(snap["room_id"])
+        if not bid: continue
+        history_by_building.setdefault(bid,[]).append({"room_id":snap["room_id"],"slot":snap["slot"],"sampled_at":snap["sampled_at"],"balance_value":snap["balance_value"],"balance_unit":snap["balance_unit"],"quality":snap["quality"]})
+    for bid, history in history_by_building.items():
+        months={str(x["slot"])[:7] for x in history}
+        for month in months: _write(stage/f"intraday/buildings/{bid}/{month}.json",[x for x in history if str(x["slot"]).startswith(month)])
+        # One last valid slot per room and natural day is the daily series source.
+        daily={}
+        for point in history:
+            day=str(point["sampled_at"])[:10]; key=(point["room_id"],day)
+            if point["balance_value"] is not None and (key not in daily or point["sampled_at"]>daily[key]["sampled_at"]): daily[key]=point
+        _write(stage/f"daily/buildings/{bid}.json",list(daily.values()))
+    for campus in campuses:
+        bids={x["building_id"] for x in buildings if x["campus_id"]==campus["campus_id"]}; points=[p for bid in bids for p in history_by_building.get(bid,[])]
+        _write(stage/f"daily/campuses/{campus['campus_id']}.json",points)
+    _write(stage/"latest/overview.json",{"generated_at":generated,"latest_slot":latest_slot,"total_rooms":total,"successful_rooms":successful,"failed_rooms":total-successful,"coverage":round(cov,4),"status":status,"campuses":campuses})
+    oldest=min((str(x["sampled_at"])[:10] for x in snapshots),default=None)
+    _write(stage/"manifest.json",{"schema_version":"1.0.0","data_version":generated.replace("-","").replace(":","")[:12],"latest_slot":latest_slot,"sampled_at":generated,"total_rooms":total,"successful_rooms":successful,"failed_rooms":total-successful,"coverage":round(cov,4),"status":status,"oldest_intraday_date":oldest,"generated_at":generated})
+    return stage
+
+def validate_staging(stage: Path) -> None:
+    text=" ".join(p.read_text(encoding="utf-8") for p in stage.rglob("*.json"))
+    for word in FORBIDDEN:
+        if word in text: raise ValueError(f"forbidden public field detected: {word}")
+    manifest=json.loads((stage/"manifest.json").read_text(encoding="utf-8"))
+    if manifest["status"]=="blocked": raise ValueError("coverage below 90%; publication blocked")
+
+def publish_staging(stage: Path, target: Path=PUBLIC) -> None:
+    validate_staging(stage); target.mkdir(parents=True,exist_ok=True); final=target/"v1"; backup=target/".v1.previous"
+    if backup.exists(): shutil.rmtree(backup)
+    if final.exists(): final.rename(backup)
+    try: stage.rename(final)
+    except Exception:
+        if final.exists(): shutil.rmtree(final)
+        if backup.exists(): backup.rename(final)
+        raise
+    if backup.exists(): shutil.rmtree(backup)

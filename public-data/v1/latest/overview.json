@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-08-23T11:17:46+08:00",
+  "latest_slot": "2026-08-22T20:00:00+08:00",
+  "total_rooms": 4880,
+  "successful_rooms": 4880,
+  "failed_rooms": 0,
+  "coverage": 1.0,
+  "status": "healthy",
+  "campuses": [
+    {
+      "campus_id": "campus-1",
+      "name": "中山北路校区"
+    },
+    {
+      "campus_id": "campus-2",
+      "name": "国定路校区"
+    },
+    {
+      "campus_id": "campus-3",
+      "name": "国教院"
+    },
+    {
+      "campus_id": "campus-4",
+      "name": "武东路校区"
+    },
+    {
+      "campus_id": "campus-5",
+      "name": "武川路校区"
+    }
+  ]
+}

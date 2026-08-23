@@ -1,0 +1,258 @@
+[
+  {
+    "room_id": "1a70ab6d-9a8d-543f-b565-a40dd743af39",
+    "slot": "2026-08-22T20:00:00+08:00",
+    "sampled_at": "2026-08-22T22:51:44",
+    "balance_value": 332.25,
+    "balance_unit": "unknown",
+    "quality": "ok"
+  },
+  {
+    "room_id": "b8e7a311-ed74-52b0-95fc-e3729ddd45dd",
+    "slot": "2026-08-22T20:00:00+08:00",
+    "sampled_at": "2026-08-22T22:51:45",
+    "balance_value": 733.77,
+    "balance_unit": "unknown",
+    "quality": "ok"
+  },
+  {
+    "room_id": "f21e16ba-b615-52f6-b28e-5c4efc107a8c",
+    "slot": "2026-08-22T20:00:00+08:00",
+    "sampled_at": "2026-08-22T22:51:45",
+    "balance_value": 242.58,
+    "balance_unit": "unknown",
+    "quality": "ok"
+  },
+  {
+    "room_id": "4c344c03-d89d-55d8-a0bd-6b9c4cdeecb9",
+    "slot": "2026-08-22T20:00:00+08:00",
+    "sampled_at": "2026-08-22T22:51:46",
+    "balance_value": 22.76,
+    "balance_unit": "unknown",
+    "quality": "ok"
+  },
+  {
+    "room_id": "755bcdb7-fcc1-53bb-934d-f7d46e2b4af6",
+    "slot": "2026-08-22T20:00:00+08:00",
+    "sampled_at": "2026-08-22T22:51:46",
+    "balance_value": 18.21,
+    "balance_unit": "unknown",
+    "quality": "ok"
+  },
+  {
+    "room_id": "9f5a7b3d-64ed-5f96-a10b-1f5d1d3e4058",
+    "slot": "2026-08-22T20:00:00+08:00",
+    "sampled_at": "2026-08-22T22:51:46",
+    "balance_value": 46.43,
+    "balance_unit": "unknown",
+    "quality": "ok"
+  },
+  {
+    "room_id": "daab029f-2349-5aae-8beb-ab6c93f7df5d",
+    "slot": "2026-08-22T20:00:00+08:00",
+    "sampled_at": "2026-08-22T22:51:46",
+    "balance_value": 642.99,
+    "balance_unit": "unknown",
+    "quality": "ok"
+  },
+  {
+    "room_id": "38df742f-7926-5c7a-8d17-ab9ca80019fb",
+    "slot": "2026-08-22T20:00:00+08:00",
+    "sampled_at": "2026-08-22T22:51:47",
+    "balance_value": 39.63,
+    "balance_unit": "unknown",
+    "quality": "ok"
+  },
+  {
+    "room_id": "5dd4d29a-95dd-50b2-92e8-140f05bfdc5f",
+    "slot": "2026-08-22T20:00:00+08:00",
+    "sampled_at": "2026-08-22T22:51:47",
+    "balance_value": 158.07,
+    "balance_unit": "unknown",
+    "quality": "ok"
+  },
+  {
+    "room_id": "d3dcb43c-799e-5fa4-912f-87ecc67a2b8e",
+    "slot": "2026-08-22T20:00:00+08:00",
+    "sampled_at": "2026-08-22T22:51:47",
+    "balance_value": 0.99,
+    "balance_unit": "unknown",
+    "quality": "ok"
+  },
+  {
+    "room_id": "f93d0295-e82d-5722-96db-6a74ff556faf",
+    "slot": "2026-08-22T20:00:00+08:00",
+    "sampled_at": "2026-08-22T22:51:47",
+    "balance_value": 35.87,
+    "balance_unit": "unknown",
+    "quality": "ok"
+  },
+  {
+    "room_id": "1e47c66a-0a52-5eca-8284-08b632e86524",
+    "slot": "2026-08-22T20:00:00+08:00",
+    "sampled_at": "2026-08-22T22:51:49",
+    "balance_value": -0.02,
+    "balance_unit": "unknown",
+    "quality": "ok"
+  },
+  {
+    "room_id": "26ba3061-8ee6-5a2d-89d7-b8a8c080e81e",
+    "slot": "2026-08-22T20:00:00+08:00",
+    "sampled_at": "2026-08-22T22:51:49",
+    "balance_value": 19.46,
+    "balance_unit": "unknown",
+    "quality": "ok"
+  },
+  {
+    "room_id": "40d1a109-f982-58d6-9611-269e31f6a7f4",
+    "slot": "2026-08-22T20:00:00+08:00",
+    "sampled_at": "2026-08-22T22:51:49",
+    "balance_value": 24.18,
+    "balance_unit": "unknown",
+    "quality": "ok"
+  },
+  {
+    "room_id": "5bf01707-0bd0-52fa-a324-d5d32905f82f",
+    "slot": "2026-08-22T20:00:00+08:00",
+    "sampled_at": "2026-08-22T22:51:49",
+    "balance_value": 91.87,
+    "balance_unit": "unknown",
+    "quality": "ok"
+  },
+  {
+    "room_id": "9cc39b2b-52d8-544d-bafe-2834d105d40b",
+    "slot": "2026-08-22T20:00:00+08:00",
+    "sampled_at": "2026-08-22T22:51:49",
+    "balance_value": 18.3,
+    "balance_unit": "unknown",
+    "quality": "ok"
+  },
+  {
+    "room_id": "d0065eed-893c-58a5-9468-5be59f3fd69c",
+    "slot": "2026-08-22T20:00:00+08:00",
+    "sampled_at": "2026-08-22T22:51:49",
+    "balance_value": 5.21,
+    "balance_unit": "unknown",
+    "quality": "ok"
+  },
+  {
+    "room_id": "10318b00-388e-548e-a65d-f0e226d2d81e",
+    "slot": "2026-08-22T20:00:00+08:00",
+    "sampled_at": "2026-08-22T22:51:50",
+    "balance_value": 3.2,
+    "balance_unit": "unknown",
+    "quality": "ok"
+  },
+  {
+    "room_id": "b579d50a-5d7a-5d75-8e17-8ad4340c7189",
+    "slot": "2026-08-22T20:00:00+08:00",
+    "sampled_at": "2026-08-22T22:51:50",
+    "balance_value": 2.95,
+    "balance_unit": "unknown",
+    "quality": "ok"
+  },
+  {
+    "room_id": "4f7bfa4f-abe2-5103-b456-d74771b5e444",
+    "slot": "2026-08-22T20:00:00+08:00",
+    "sampled_at": "2026-08-22T22:51:51",
+    "balance_value": 24.0,
+    "balance_unit": "unknown",
+    "quality": "ok"
+  },
+  {
+    "room_id": "4f9aaec4-6a5b-5835-b120-cc0a54194fa6",
+    "slot": "2026-08-22T20:00:00+08:00",
+    "sampled_at": "2026-08-22T22:51:51",
+    "balance_value": 37.31,
+    "balance_unit": "unknown",
+    "quality": "ok"
+  },
+  {
+    "room_id": "58a8c534-b9c5-5d54-9bcd-4e7b83f3b5c8",
+    "slot": "2026-08-22T20:00:00+08:00",
+    "sampled_at": "2026-08-22T22:51:51",
+    "balance_value": 19.29,
+    "balance_unit": "unknown",
+    "quality": "ok"
+  },
+  {
+    "room_id": "734bd04b-a13c-5c00-83b9-874aaa6718a3",
+    "slot": "2026-08-22T20:00:00+08:00",
+    "sampled_at": "2026-08-22T22:51:51",
+    "balance_value": 2.86,
+    "balance_unit": "unknown",
+    "quality": "ok"
+  },
+  {
+    "room_id": "13b5fd75-c063-546c-9c29-df92633186a8",
+    "slot": "2026-08-22T20:00:00+08:00",
+    "sampled_at": "2026-08-22T22:51:52",
+    "balance_value": 3.77,
+    "balance_unit": "unknown",
+    "quality": "ok"
+  },
+  {
+    "room_id": "84e0d200-92b0-5d96-9ec3-d9fa697d02fb",
+    "slot": "2026-08-22T20:00:00+08:00",
+    "sampled_at": "2026-08-22T22:51:52",
+    "balance_value": 18.61,
+    "balance_unit": "unknown",
+    "quality": "ok"
+  },
+  {
+    "room_id": "85b7da9b-4ff2-50f7-9b8b-65382dbda4f7",
+    "slot": "2026-08-22T20:00:00+08:00",
+    "sampled_at": "2026-08-22T22:51:52",
+    "balance_value": 12.06,
+    "balance_unit": "unknown",
+    "quality": "ok"
+  },
+  {
+    "room_id": "e57a8c26-2e24-57f8-8461-39775099e1cb",
+    "slot": "2026-08-22T20:00:00+08:00",
+    "sampled_at": "2026-08-22T22:51:52",
+    "balance_value": 49.48,
+    "balance_unit": "unknown",
+    "quality": "ok"
+  },
+  {
+    "room_id": "2782f17f-61e6-5991-a8d8-457230a572c3",
+    "slot": "2026-08-22T20:00:00+08:00",
+    "sampled_at": "2026-08-22T22:51:54",
+    "balance_value": 114.8,
+    "balance_unit": "unknown",
+    "quality": "ok"
+  },
+  {
+    "room_id": "4189d46d-bde8-58ed-8feb-7d8123fb9a24",
+    "slot": "2026-08-22T20:00:00+08:00",
+    "sampled_at": "2026-08-22T22:51:54",
+    "balance_value": -1612.1,
+    "balance_unit": "unknown",
+    "quality": "ok"
+  },
+  {
+    "room_id": "c8935c33-8359-58a0-9866-7653b79701a0",
+    "slot": "2026-08-22T20:00:00+08:00",
+    "sampled_at": "2026-08-22T22:51:54",
+    "balance_value": 27.0,
+    "balance_unit": "unknown",
+    "quality": "ok"
+  },
+  {
+    "room_id": "f5cf01a4-6cb5-5513-97fe-ebb6fb8bf109",
+    "slot": "2026-08-22T20:00:00+08:00",
+    "sampled_at": "2026-08-22T22:51:54",
+    "balance_value": 27.0,
+    "balance_unit": "unknown",
+    "quality": "ok"
+  },
+  {
+    "room_id": "f7bdb91d-ad47-5d2f-865a-c1e97404956d",
+    "slot": "2026-08-22T20:00:00+08:00",
+    "sampled_at": "2026-08-22T22:51:54",
+    "balance_value": -1222.66,
+    "balance_unit": "unknown",
+    "quality": "ok"
+  }
+]

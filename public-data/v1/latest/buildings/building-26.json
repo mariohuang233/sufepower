@@ -1,0 +1,129 @@
+{
+  "building": {
+    "building_id": "building-26",
+    "campus_id": "campus-3",
+    "name": "国教院教工宿舍"
+  },
+  "rooms": [
+    {
+      "room_id": "c96fe911-1809-5e89-a5d6-c8e7bf1d1d7f",
+      "campus_id": "campus-3",
+      "building_id": "building-26",
+      "floor": "国教院教工宿舍",
+      "name": "2层1",
+      "balance_value": 0.0,
+      "balance_unit": "unknown",
+      "last_updated": "2026-08-22T23:03:39",
+      "stale": false,
+      "quality": "ok"
+    },
+    {
+      "room_id": "ffda603e-b44a-534a-a567-e115572ed96b",
+      "campus_id": "campus-3",
+      "building_id": "building-26",
+      "floor": "国教院教工宿舍",
+      "name": "2层2",
+      "balance_value": 0.0,
+      "balance_unit": "unknown",
+      "last_updated": "2026-08-22T23:03:39",
+      "stale": false,
+      "quality": "ok"
+    },
+    {
+      "room_id": "67b0c21e-6e1e-526e-bb68-fe375da9ef2f",
+      "campus_id": "campus-3",
+      "building_id": "building-26",
+      "floor": "国教院教工宿舍",
+      "name": "2层3",
+      "balance_value": 0.0,
+      "balance_unit": "unknown",
+      "last_updated": "2026-08-22T23:03:39",
+      "stale": false,
+      "quality": "ok"
+    },
+    {
+      "room_id": "2aae48d4-f590-5a58-b538-ba9d49929644",
+      "campus_id": "campus-3",
+      "building_id": "building-26",
+      "floor": "国教院教工宿舍",
+      "name": "2层4",
+      "balance_value": 0.0,
+      "balance_unit": "unknown",
+      "last_updated": "2026-08-22T23:03:39",
+      "stale": false,
+      "quality": "ok"
+    },
+    {
+      "room_id": "3dc35ee3-8429-5af2-848a-85a8b74b5b13",
+      "campus_id": "campus-3",
+      "building_id": "building-26",
+      "floor": "国教院教工宿舍",
+      "name": "北1",
+      "balance_value": 0.0,
+      "balance_unit": "unknown",
+      "last_updated": "2026-08-22T23:03:40",
+      "stale": false,
+      "quality": "ok"
+    },
+    {
+      "room_id": "4c605fa3-1c7e-555f-b2ac-50d3c0636a96",
+      "campus_id": "campus-3",
+      "building_id": "building-26",
+      "floor": "国教院教工宿舍",
+      "name": "北2",
+      "balance_value": 0.0,
+      "balance_unit": "unknown",
+      "last_updated": "2026-08-22T23:03:40",
+      "stale": false,
+      "quality": "ok"
+    },
+    {
+      "room_id": "4de20b3c-36db-5a9f-ba60-0db23a1943a0",
+      "campus_id": "campus-3",
+      "building_id": "building-26",
+      "floor": "国教院教工宿舍",
+      "name": "南1",
+      "balance_value": -2.54,
+      "balance_unit": "unknown",
+      "last_updated": "2026-08-22T23:03:40",
+      "stale": false,
+      "quality": "ok"
+    },
+    {
+      "room_id": "aa6f4a65-f37b-5cee-aec9-b64b2bae5579",
+      "campus_id": "campus-3",
+      "building_id": "building-26",
+      "floor": "国教院教工宿舍",
+      "name": "南2",
+      "balance_value": 0.0,
+      "balance_unit": "unknown",
+      "last_updated": "2026-08-22T23:03:40",
+      "stale": false,
+      "quality": "ok"
+    },
+    {
+      "room_id": "72b14f00-2a80-51e9-a8a4-2253e0d49369",
+      "campus_id": "campus-3",
+      "building_id": "building-26",
+      "floor": "国教院教工宿舍",
+      "name": "南3",
+      "balance_value": -7.43,
+      "balance_unit": "unknown",
+      "last_updated": "2026-08-22T23:03:41",
+      "stale": false,
+      "quality": "ok"
+    },
+    {
+      "room_id": "90846a97-1f93-5055-8211-744446987d9d",
+      "campus_id": "campus-3",
+      "building_id": "building-26",
+      "floor": "国教院教工宿舍",
+      "name": "南4",
+      "balance_value": 0.0,
+      "balance_unit": "unknown",
+      "last_updated": "2026-08-22T23:03:41",
+      "stale": false,
+      "quality": "ok"
+    }
+  ]
+}

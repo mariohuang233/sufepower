@@ -1,0 +1,22 @@
+[
+  {
+    "campus_id": "campus-1",
+    "name": "中山北路校区"
+  },
+  {
+    "campus_id": "campus-2",
+    "name": "国定路校区"
+  },
+  {
+    "campus_id": "campus-3",
+    "name": "国教院"
+  },
+  {
+    "campus_id": "campus-4",
+    "name": "武东路校区"
+  },
+  {
+    "campus_id": "campus-5",
+    "name": "武川路校区"
+  }
+]

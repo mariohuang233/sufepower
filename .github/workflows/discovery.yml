@@ -1,0 +1,19 @@
+name: weekly room discovery
+on:
+  schedule: [{cron: '17 16 * * 0'}]
+  workflow_dispatch:
+concurrency:
+  group: sufe-ems-discovery
+  cancel-in-progress: false
+permissions: {contents: read}
+jobs:
+  discover:
+    runs-on: self-hosted
+    timeout-minutes: 210
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12', cache: pip}
+      - run: pip install -r requirements.txt
+      - run: python -m collector discover
+        env: {SUFE_EMS_TOKEN: '${{ secrets.SUFE_EMS_TOKEN }}'}

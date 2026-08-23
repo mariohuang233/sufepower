@@ -1,0 +1,5 @@
+# 架构
+
+本项目采用私有采集端与公开静态站点分离的边界。`collector/` 只处理 Token、学校接口、SQLite、原始响应和质量计算；`public-data/v1/` 只保存经过字段门禁的稳定公开 ID、楼宇目录、最新快照和可选历史；`site/` 是 Vite + React 的纯静态 SPA。两者通过版本化 JSON 契约连接，未来可将 collector 与 site 拆成两个仓库。
+
+采集任务按 Asia/Shanghai 的四小时 slot 幂等写入 `room_id + slot`，全局串行、每次请求至少间隔一秒，认证失败或限流立即停止，网络/5xx 最多三次指数退避。覆盖率低于 90% 阻止发布，90% 至 98% 发布为 partial，98% 以上为 healthy。公开发布使用临时目录并在验证后替换。

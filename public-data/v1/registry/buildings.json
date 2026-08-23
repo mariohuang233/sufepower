@@ -1,0 +1,212 @@
+[
+  {
+    "building_id": "building-1",
+    "campus_id": "campus-1",
+    "name": "学生公寓28号"
+  },
+  {
+    "building_id": "building-2",
+    "campus_id": "campus-1",
+    "name": "学生公寓29号"
+  },
+  {
+    "building_id": "building-3",
+    "campus_id": "campus-1",
+    "name": "学生公寓30号"
+  },
+  {
+    "building_id": "building-4",
+    "campus_id": "campus-2",
+    "name": "学生公寓10号"
+  },
+  {
+    "building_id": "building-5",
+    "campus_id": "campus-2",
+    "name": "学生公寓11号"
+  },
+  {
+    "building_id": "building-6",
+    "campus_id": "campus-2",
+    "name": "学生公寓1号"
+  },
+  {
+    "building_id": "building-7",
+    "campus_id": "campus-2",
+    "name": "学生公寓20号"
+  },
+  {
+    "building_id": "building-8",
+    "campus_id": "campus-2",
+    "name": "学生公寓27号"
+  },
+  {
+    "building_id": "building-9",
+    "campus_id": "campus-2",
+    "name": "学生公寓2号"
+  },
+  {
+    "building_id": "building-10",
+    "campus_id": "campus-2",
+    "name": "学生公寓3号北"
+  },
+  {
+    "building_id": "building-11",
+    "campus_id": "campus-2",
+    "name": "学生公寓3号南"
+  },
+  {
+    "building_id": "building-12",
+    "campus_id": "campus-2",
+    "name": "学生公寓4号北"
+  },
+  {
+    "building_id": "building-13",
+    "campus_id": "campus-2",
+    "name": "学生公寓4号南"
+  },
+  {
+    "building_id": "building-14",
+    "campus_id": "campus-2",
+    "name": "学生公寓5号"
+  },
+  {
+    "building_id": "building-15",
+    "campus_id": "campus-2",
+    "name": "学生公寓6号"
+  },
+  {
+    "building_id": "building-16",
+    "campus_id": "campus-2",
+    "name": "学生公寓7号"
+  },
+  {
+    "building_id": "building-17",
+    "campus_id": "campus-2",
+    "name": "学生公寓8号"
+  },
+  {
+    "building_id": "building-18",
+    "campus_id": "campus-2",
+    "name": "学生公寓9号"
+  },
+  {
+    "building_id": "building-19",
+    "campus_id": "campus-2",
+    "name": "学生宿舍11号楼西"
+  },
+  {
+    "building_id": "building-20",
+    "campus_id": "campus-3",
+    "name": "国教院1号楼"
+  },
+  {
+    "building_id": "building-21",
+    "campus_id": "campus-3",
+    "name": "国教院2号楼"
+  },
+  {
+    "building_id": "building-22",
+    "campus_id": "campus-3",
+    "name": "国教院3号楼"
+  },
+  {
+    "building_id": "building-23",
+    "campus_id": "campus-3",
+    "name": "国教院4号楼"
+  },
+  {
+    "building_id": "building-24",
+    "campus_id": "campus-3",
+    "name": "国教院5号楼"
+  },
+  {
+    "building_id": "building-25",
+    "campus_id": "campus-3",
+    "name": "国教院6号楼"
+  },
+  {
+    "building_id": "building-26",
+    "campus_id": "campus-3",
+    "name": "国教院教工宿舍"
+  },
+  {
+    "building_id": "building-27",
+    "campus_id": "campus-4",
+    "name": "学生公寓12号"
+  },
+  {
+    "building_id": "building-28",
+    "campus_id": "campus-4",
+    "name": "学生公寓13号"
+  },
+  {
+    "building_id": "building-29",
+    "campus_id": "campus-4",
+    "name": "学生公寓14号"
+  },
+  {
+    "building_id": "building-30",
+    "campus_id": "campus-4",
+    "name": "学生公寓15号"
+  },
+  {
+    "building_id": "building-31",
+    "campus_id": "campus-4",
+    "name": "学生公寓16号"
+  },
+  {
+    "building_id": "building-32",
+    "campus_id": "campus-4",
+    "name": "学生公寓17号"
+  },
+  {
+    "building_id": "building-33",
+    "campus_id": "campus-4",
+    "name": "学生公寓18号北"
+  },
+  {
+    "building_id": "building-34",
+    "campus_id": "campus-4",
+    "name": "学生公寓18号南"
+  },
+  {
+    "building_id": "building-35",
+    "campus_id": "campus-4",
+    "name": "学生公寓19号北"
+  },
+  {
+    "building_id": "building-36",
+    "campus_id": "campus-4",
+    "name": "学生公寓19号南"
+  },
+  {
+    "building_id": "building-37",
+    "campus_id": "campus-5",
+    "name": "学生公寓21号"
+  },
+  {
+    "building_id": "building-38",
+    "campus_id": "campus-5",
+    "name": "学生公寓22号"
+  },
+  {
+    "building_id": "building-39",
+    "campus_id": "campus-5",
+    "name": "学生公寓23号"
+  },
+  {
+    "building_id": "building-40",
+    "campus_id": "campus-5",
+    "name": "学生公寓24号"
+  },
+  {
+    "building_id": "building-41",
+    "campus_id": "campus-5",
+    "name": "学生公寓25号"
+  },
+  {
+    "building_id": "building-42",
+    "campus_id": "campus-5",
+    "name": "学生公寓26号"
+  }
+]

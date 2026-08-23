@@ -12,10 +12,12 @@
       "floor": "2",
       "name": "2层1",
       "balance_value": 0.0,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:13:58+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:24:36+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "ffda603e-b44a-534a-a567-e115572ed96b",
@@ -24,10 +26,12 @@
       "floor": "2",
       "name": "2层2",
       "balance_value": 0.0,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:13:58+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:24:36+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "67b0c21e-6e1e-526e-bb68-fe375da9ef2f",
@@ -36,10 +40,12 @@
       "floor": "2",
       "name": "2层3",
       "balance_value": 0.0,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:13:59+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:24:36+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "2aae48d4-f590-5a58-b538-ba9d49929644",
@@ -48,10 +54,12 @@
       "floor": "2",
       "name": "2层4",
       "balance_value": 0.0,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:13:59+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:24:36+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "3dc35ee3-8429-5af2-848a-85a8b74b5b13",
@@ -60,10 +68,12 @@
       "floor": "国教院教工宿舍",
       "name": "北1",
       "balance_value": 0.0,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:13:59+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:24:37+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "4c605fa3-1c7e-555f-b2ac-50d3c0636a96",
@@ -72,10 +82,12 @@
       "floor": "国教院教工宿舍",
       "name": "北2",
       "balance_value": 0.0,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:13:59+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:24:37+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "4de20b3c-36db-5a9f-ba60-0db23a1943a0",
@@ -84,10 +96,12 @@
       "floor": "国教院教工宿舍",
       "name": "南1",
       "balance_value": -2.54,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:14:00+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:24:37+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "aa6f4a65-f37b-5cee-aec9-b64b2bae5579",
@@ -96,10 +110,12 @@
       "floor": "国教院教工宿舍",
       "name": "南2",
       "balance_value": 0.0,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:14:00+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:24:37+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "72b14f00-2a80-51e9-a8a4-2253e0d49369",
@@ -108,10 +124,12 @@
       "floor": "国教院教工宿舍",
       "name": "南3",
       "balance_value": -7.43,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:14:00+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:24:37+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "90846a97-1f93-5055-8211-744446987d9d",
@@ -120,10 +138,12 @@
       "floor": "国教院教工宿舍",
       "name": "南4",
       "balance_value": 0.0,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:14:00+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:24:38+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     }
   ]
 }

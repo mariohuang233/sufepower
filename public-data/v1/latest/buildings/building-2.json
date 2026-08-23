@@ -11,11 +11,13 @@
       "building_id": "building-2",
       "floor": "1",
       "name": "101",
-      "balance_value": 17.21,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:25+08:00",
+      "balance_value": 16.99,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:09+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "1741b699-8149-5588-9182-f230c4ff443c",
@@ -24,10 +26,12 @@
       "floor": "1",
       "name": "102",
       "balance_value": 65.3,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:07+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:20:52+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "a1816065-d275-58c7-9def-18c3ebac353c",
@@ -35,11 +39,13 @@
       "building_id": "building-2",
       "floor": "1",
       "name": "103",
-      "balance_value": 91.21,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:25+08:00",
+      "balance_value": 89.71,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:10+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "9e099400-260f-5b1c-b7fa-40fe14d3ab73",
@@ -47,11 +53,13 @@
       "building_id": "building-2",
       "floor": "1",
       "name": "104",
-      "balance_value": 14.85,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:08+08:00",
+      "balance_value": 14.59,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:20:52+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "260d67cd-b4a8-5707-9b8c-55a5f7980161",
@@ -60,10 +68,12 @@
       "floor": "1",
       "name": "105",
       "balance_value": 32.07,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:26+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:10+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "1931637e-caa1-596b-81f0-e47e73102aba",
@@ -72,10 +82,12 @@
       "floor": "1",
       "name": "106",
       "balance_value": 16.85,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:08+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:20:53+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "b3133b44-d30d-53d8-a9cc-4305023c7ba3",
@@ -83,11 +95,13 @@
       "building_id": "building-2",
       "floor": "1",
       "name": "107",
-      "balance_value": 30.67,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:26+08:00",
+      "balance_value": 30.65,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:10+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "e01d0ef4-870f-56ec-8da5-d3c0173f5ccb",
@@ -96,10 +110,12 @@
       "floor": "1",
       "name": "108",
       "balance_value": 14.57,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:08+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:20:53+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "f25aa7ee-ffb6-504f-b57d-5dcdd813a90e",
@@ -108,10 +124,12 @@
       "floor": "1",
       "name": "109",
       "balance_value": 16.93,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:08+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:20:53+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "87c4e995-3dba-5c3b-882b-2a0c732b6964",
@@ -119,11 +137,13 @@
       "building_id": "building-2",
       "floor": "1",
       "name": "110",
-      "balance_value": 14.45,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:09+08:00",
+      "balance_value": 14.4,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:20:53+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "1d8d44ee-9d37-521e-a973-727aae12fc5c",
@@ -132,10 +152,12 @@
       "floor": "1",
       "name": "111",
       "balance_value": 20.71,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:09+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:20:54+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "e9bb66dd-d929-5acd-ba89-945fc7c9c605",
@@ -144,10 +166,12 @@
       "floor": "1",
       "name": "112",
       "balance_value": 15.57,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:09+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:20:54+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "347f669b-290e-51ab-8c6a-c8786321b988",
@@ -156,10 +180,12 @@
       "floor": "1",
       "name": "113",
       "balance_value": 23.94,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:09+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:20:54+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "26e3c094-f768-5321-abc4-cc039185a09b",
@@ -168,10 +194,12 @@
       "floor": "1",
       "name": "115",
       "balance_value": 38.87,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:09+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:20:54+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "41daa3c9-dc7b-5376-ae37-005151df48dc",
@@ -180,10 +208,12 @@
       "floor": "1",
       "name": "117",
       "balance_value": 0.76,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:10+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:20:54+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "b71037ee-087d-5de9-9125-b2693e474b24",
@@ -191,11 +221,13 @@
       "building_id": "building-2",
       "floor": "1",
       "name": "119",
-      "balance_value": 15.71,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:10+08:00",
+      "balance_value": 15.43,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:20:55+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "87f31e20-fe41-5bb5-a007-49be487fc402",
@@ -203,11 +235,13 @@
       "building_id": "building-2",
       "floor": "1",
       "name": "121",
-      "balance_value": 14.26,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:10+08:00",
+      "balance_value": 14.18,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:20:55+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "99c4524f-92ba-59a4-bcbc-d7ee3f102cec",
@@ -216,10 +250,12 @@
       "floor": "1",
       "name": "123",
       "balance_value": 15.99,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:10+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:20:55+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "05e4da36-95b3-5bf8-8390-1b13b61862f6",
@@ -228,10 +264,12 @@
       "floor": "1",
       "name": "125",
       "balance_value": 28.2,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:11+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:20:55+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "897414be-fcab-50ce-89eb-b193c848f980",
@@ -240,10 +278,12 @@
       "floor": "2",
       "name": "201",
       "balance_value": 26.14,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:26+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:10+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "c01092e2-6ad0-5d6a-9e78-8751ac80bd59",
@@ -251,11 +291,13 @@
       "building_id": "building-2",
       "floor": "2",
       "name": "202",
-      "balance_value": 16.54,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:11+08:00",
+      "balance_value": 15.72,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:20:56+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "0a0faadf-6ca1-55a8-9907-00c4bd9fe052",
@@ -264,10 +306,12 @@
       "floor": "2",
       "name": "203",
       "balance_value": 0.02,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:26+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:11+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "392c2f8d-949e-5a11-b55a-09f365baefd3",
@@ -275,11 +319,13 @@
       "building_id": "building-2",
       "floor": "2",
       "name": "204",
-      "balance_value": 104.38,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:11+08:00",
+      "balance_value": 104.24,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:20:56+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "370dee10-13d6-5b6d-9137-63e63afcff51",
@@ -288,10 +334,12 @@
       "floor": "2",
       "name": "205",
       "balance_value": 32.95,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:27+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:11+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "80ee8339-8b82-546d-bf70-2083ff675a67",
@@ -299,11 +347,13 @@
       "building_id": "building-2",
       "floor": "2",
       "name": "206",
-      "balance_value": 16.75,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:11+08:00",
+      "balance_value": 16.49,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:20:56+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "ad69aa0b-d038-5b1e-b677-db0660f2362a",
@@ -312,10 +362,12 @@
       "floor": "2",
       "name": "207",
       "balance_value": 34.15,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:27+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:11+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "9290212d-0e6a-5e29-97ad-7a59db05a6a8",
@@ -324,10 +376,12 @@
       "floor": "2",
       "name": "208",
       "balance_value": 25.79,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:12+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:20:56+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "2b3bfaa8-b5e1-5d01-8fe7-3c82e2b9afde",
@@ -336,10 +390,12 @@
       "floor": "2",
       "name": "209",
       "balance_value": 33.52,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:27+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:11+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "56451242-6ff6-5f47-9a69-2c0e6a18f2c4",
@@ -348,10 +404,12 @@
       "floor": "2",
       "name": "210",
       "balance_value": 16.06,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:12+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:20:57+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "d0cc8420-c904-5724-9f2e-7214199fed52",
@@ -359,11 +417,13 @@
       "building_id": "building-2",
       "floor": "2",
       "name": "211",
-      "balance_value": 0.69,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:27+08:00",
+      "balance_value": 0.35,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:12+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "867f6a5c-d5b2-544c-9a08-4b9b0fc04383",
@@ -371,11 +431,13 @@
       "building_id": "building-2",
       "floor": "2",
       "name": "212",
-      "balance_value": 15.84,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:12+08:00",
+      "balance_value": 15.63,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:20:57+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "69b18e48-2562-580e-97db-3aa64415b901",
@@ -383,11 +445,13 @@
       "building_id": "building-2",
       "floor": "2",
       "name": "213",
-      "balance_value": 12.86,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:12+08:00",
+      "balance_value": 12.67,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:20:57+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "e65fd361-4679-5b94-93fb-92b84a36e2c9",
@@ -395,11 +459,13 @@
       "building_id": "building-2",
       "floor": "2",
       "name": "215",
-      "balance_value": 18.52,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:13+08:00",
+      "balance_value": 18.33,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:20:57+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "5d7ebc72-0b3f-5726-a57a-883aa58745f8",
@@ -407,11 +473,13 @@
       "building_id": "building-2",
       "floor": "2",
       "name": "217",
-      "balance_value": 14.64,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:13+08:00",
+      "balance_value": 14.36,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:20:57+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "018a7c73-9f7a-5df1-accb-b16832f35b46",
@@ -419,11 +487,13 @@
       "building_id": "building-2",
       "floor": "2",
       "name": "219",
-      "balance_value": 15.96,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:13+08:00",
+      "balance_value": 15.73,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:20:58+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "e32fbbbe-a1b0-5a2d-9e16-7f6f4bb85bf3",
@@ -432,10 +502,12 @@
       "floor": "2",
       "name": "221",
       "balance_value": 14.33,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:13+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:20:58+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "2ad70af2-a224-58d1-9d33-c1f452bdde37",
@@ -444,10 +516,12 @@
       "floor": "2",
       "name": "223",
       "balance_value": 39.1,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:14+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:20:58+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "f29b10e3-2d69-5d7a-b636-98e90909f8fd",
@@ -456,10 +530,12 @@
       "floor": "2",
       "name": "225",
       "balance_value": 36.13,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:14+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:20:58+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "247351a5-6dc5-5869-92e5-7fc7aeac6ef5",
@@ -468,10 +544,12 @@
       "floor": "2",
       "name": "227",
       "balance_value": 15.45,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:14+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:20:59+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "ba71a744-7f9c-5e35-84ce-c6d2332d32be",
@@ -479,11 +557,13 @@
       "building_id": "building-2",
       "floor": "2",
       "name": "229",
-      "balance_value": 21.01,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:14+08:00",
+      "balance_value": 20.76,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:20:59+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "47d70603-7827-5595-afc7-3ad8438d3f76",
@@ -492,10 +572,12 @@
       "floor": "2",
       "name": "231",
       "balance_value": 41.35,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:15+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:20:59+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "2afb73fc-f70f-5b63-a60a-4c9a1756b3de",
@@ -503,11 +585,13 @@
       "building_id": "building-2",
       "floor": "2",
       "name": "233",
-      "balance_value": 15.99,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:15+08:00",
+      "balance_value": 15.75,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:20:59+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "d8228785-7bf2-5849-8bd9-d7017d792ea2",
@@ -515,11 +599,13 @@
       "building_id": "building-2",
       "floor": "2",
       "name": "2层多功能用房1",
-      "balance_value": -412.96,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:23+08:00",
+      "balance_value": -413.07,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:08+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "e8f46188-4c9b-501d-be0d-00eeb5c26eab",
@@ -527,11 +613,13 @@
       "building_id": "building-2",
       "floor": "2",
       "name": "2层多功能用房2",
-      "balance_value": -4893.03,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:24+08:00",
+      "balance_value": -4893.27,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:08+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "22005cbe-4f04-5d7c-b220-a9161c36d27b",
@@ -539,11 +627,13 @@
       "building_id": "building-2",
       "floor": "3",
       "name": "301",
-      "balance_value": 23.67,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:15+08:00",
+      "balance_value": 23.42,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:00+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "d5f0a9f1-aee3-5385-a93b-d040b44303de",
@@ -551,11 +641,13 @@
       "building_id": "building-2",
       "floor": "3",
       "name": "302",
-      "balance_value": 4.34,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:15+08:00",
+      "balance_value": 32.84,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:00+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "5ec0fb96-cb75-598c-91c4-a04e61dbfee2",
@@ -563,11 +655,13 @@
       "building_id": "building-2",
       "floor": "3",
       "name": "303",
-      "balance_value": 12.26,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:16+08:00",
+      "balance_value": 11.75,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:00+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "f718120b-ee89-5d2b-b534-e0ca546b7e4f",
@@ -576,10 +670,12 @@
       "floor": "3",
       "name": "304",
       "balance_value": 15.79,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:16+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:00+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "dd1cebb8-9ad2-5af7-aee6-826b06cbd1de",
@@ -587,11 +683,13 @@
       "building_id": "building-2",
       "floor": "3",
       "name": "305",
-      "balance_value": 11.04,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:16+08:00",
+      "balance_value": 10.54,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:01+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "1e93cc6e-4890-5933-9265-b1a6a03574c9",
@@ -600,10 +698,12 @@
       "floor": "3",
       "name": "306",
       "balance_value": 16.78,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:16+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:01+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "48224282-42f9-56f5-8e80-d520bf0eeac4",
@@ -611,11 +711,13 @@
       "building_id": "building-2",
       "floor": "3",
       "name": "307",
-      "balance_value": 14.44,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:16+08:00",
+      "balance_value": 14.3,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:01+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "a2629f31-4771-56a2-addf-bf351468db99",
@@ -623,11 +725,13 @@
       "building_id": "building-2",
       "floor": "3",
       "name": "308",
-      "balance_value": 17.51,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:17+08:00",
+      "balance_value": 17.26,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:01+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "1e1e4e70-9f3d-52a9-9290-5cd2cc0e5137",
@@ -636,10 +740,12 @@
       "floor": "3",
       "name": "309",
       "balance_value": 15.48,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:17+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:01+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "6a64a915-4534-565f-8152-3802cadb59e3",
@@ -648,10 +754,12 @@
       "floor": "3",
       "name": "310",
       "balance_value": 15.97,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:17+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:02+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "5728bf55-511e-5202-a4cb-24f104e943b5",
@@ -660,10 +768,12 @@
       "floor": "3",
       "name": "311",
       "balance_value": 19.7,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:17+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:02+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "11ee1292-66be-5edb-b652-1bc75fc19fdb",
@@ -672,10 +782,12 @@
       "floor": "3",
       "name": "312",
       "balance_value": 15.92,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:18+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:02+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "184e8c99-d4ca-59ed-b0f4-f8842bc74777",
@@ -684,10 +796,12 @@
       "floor": "3",
       "name": "313",
       "balance_value": 21.06,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:18+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:02+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "6f579074-1053-5ac5-a783-60dd2b65676d",
@@ -695,11 +809,13 @@
       "building_id": "building-2",
       "floor": "3",
       "name": "315",
-      "balance_value": 1.82,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:18+08:00",
+      "balance_value": 0.68,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:03+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "9f8504c6-e74e-557c-b277-aa40394e9e9a",
@@ -708,10 +824,12 @@
       "floor": "3",
       "name": "317",
       "balance_value": 16.86,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:18+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:03+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "584efb25-67ab-518b-bca4-f9403064fe24",
@@ -719,11 +837,13 @@
       "building_id": "building-2",
       "floor": "3",
       "name": "319",
-      "balance_value": 2.64,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:19+08:00",
+      "balance_value": 1.57,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:03+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "9e5bf3bb-27b8-514b-a107-b524125a1ab4",
@@ -731,11 +851,13 @@
       "building_id": "building-2",
       "floor": "3",
       "name": "321",
-      "balance_value": 28.82,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:19+08:00",
+      "balance_value": 28.58,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:03+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "f1f10220-5a69-5914-bb4a-5727e2a4980e",
@@ -744,10 +866,12 @@
       "floor": "3",
       "name": "3层多功能用房1",
       "balance_value": 24.24,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:24+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:08+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "2328d39e-3846-59b0-a5f7-22722d31f1d3",
@@ -756,10 +880,12 @@
       "floor": "3",
       "name": "3层多功能用房2",
       "balance_value": 23.21,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:24+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:08+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "2ded936c-6bfb-52d1-b508-16becc7c6192",
@@ -767,11 +893,13 @@
       "building_id": "building-2",
       "floor": "4",
       "name": "401",
-      "balance_value": 37.86,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:19+08:00",
+      "balance_value": 35.27,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:04+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "e421f3b2-c1f3-5ada-ba1f-5561b5dec19a",
@@ -779,11 +907,13 @@
       "building_id": "building-2",
       "floor": "4",
       "name": "402",
-      "balance_value": 17.24,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:19+08:00",
+      "balance_value": 17.01,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:04+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "ef562d02-dc29-5667-8756-a3c7c876813e",
@@ -791,11 +921,13 @@
       "building_id": "building-2",
       "floor": "4",
       "name": "403",
-      "balance_value": 7.09,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:20+08:00",
+      "balance_value": 5.66,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:04+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "67cc64cc-9c3f-5cb7-89ee-5eadd2e5396c",
@@ -804,10 +936,12 @@
       "floor": "4",
       "name": "404",
       "balance_value": 26.32,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:20+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:04+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "a59de6e1-0bd5-502d-8762-9da675c6362d",
@@ -815,11 +949,13 @@
       "building_id": "building-2",
       "floor": "4",
       "name": "405",
-      "balance_value": 24.32,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:20+08:00",
+      "balance_value": 24.29,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:05+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "c7850d78-aaa4-5171-951b-1913ba9b82b3",
@@ -828,10 +964,12 @@
       "floor": "4",
       "name": "406",
       "balance_value": 11.07,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:20+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:05+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "87252d86-c42a-5460-a02d-50db53130f4e",
@@ -839,11 +977,13 @@
       "building_id": "building-2",
       "floor": "4",
       "name": "407",
-      "balance_value": 24.45,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:21+08:00",
+      "balance_value": 23.73,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:05+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "e6d9674e-52d7-5ad3-8a90-dd1558a293e3",
@@ -852,10 +992,12 @@
       "floor": "4",
       "name": "408",
       "balance_value": 34.04,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:21+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:05+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "47a54d1f-8dbc-57a1-b714-c3324abd7558",
@@ -863,11 +1005,13 @@
       "building_id": "building-2",
       "floor": "4",
       "name": "409",
-      "balance_value": 15.35,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:21+08:00",
+      "balance_value": 15.09,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:05+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "fc4bcd20-114b-57f8-860e-d4f728c35609",
@@ -876,10 +1020,12 @@
       "floor": "4",
       "name": "410",
       "balance_value": 28.06,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:21+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:06+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "9b6fe144-714c-5950-88c9-7e20f3259aba",
@@ -888,10 +1034,12 @@
       "floor": "4",
       "name": "411",
       "balance_value": 23.79,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:22+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:06+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "8dd4a40c-90cc-5077-9c9a-f58088cf0ad4",
@@ -900,10 +1048,12 @@
       "floor": "4",
       "name": "412",
       "balance_value": 155.25,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:22+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:06+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "d9344ae5-083d-5041-bfb1-72272be378d8",
@@ -912,10 +1062,12 @@
       "floor": "4",
       "name": "413",
       "balance_value": 22.27,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:22+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:06+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "2851848f-ab10-5824-9431-679cadd9150a",
@@ -923,11 +1075,13 @@
       "building_id": "building-2",
       "floor": "4",
       "name": "415",
-      "balance_value": 26.13,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:22+08:00",
+      "balance_value": 25.9,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:07+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "396bf31c-fb02-563b-904f-a4407d41f710",
@@ -936,10 +1090,12 @@
       "floor": "4",
       "name": "417",
       "balance_value": 37.26,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:23+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:07+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "5613f4db-5528-5460-bd3f-0ad1387afe0e",
@@ -947,11 +1103,13 @@
       "building_id": "building-2",
       "floor": "4",
       "name": "419",
-      "balance_value": 22.09,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:23+08:00",
+      "balance_value": 21.84,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:07+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "b78d28e3-054b-5dc6-97e8-88e2dbc4c943",
@@ -960,10 +1118,12 @@
       "floor": "4",
       "name": "421",
       "balance_value": 16.5,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:23+08:00",
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:07+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "d94c1dab-571c-5237-9f35-d73837004e56",
@@ -971,11 +1131,13 @@
       "building_id": "building-2",
       "floor": "4",
       "name": "4层多功能用房1",
-      "balance_value": -110.62,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:24+08:00",
+      "balance_value": -110.78,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:09+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "73ba31db-ac97-5141-8d98-094116a3b401",
@@ -983,11 +1145,13 @@
       "building_id": "building-2",
       "floor": "4",
       "name": "4层多功能用房2",
-      "balance_value": -17.35,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:24+08:00",
+      "balance_value": -17.43,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:09+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "fd6390f5-88dd-5072-975a-26c4417f97a0",
@@ -995,11 +1159,13 @@
       "building_id": "building-2",
       "floor": "公共间",
       "name": "值班室",
-      "balance_value": -10618.6,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:25+08:00",
+      "balance_value": -10621.76,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:09+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     },
     {
       "room_id": "15df52e9-4995-50c8-9684-d53c1950c46d",
@@ -1007,11 +1173,13 @@
       "building_id": "building-2",
       "floor": "公共间",
       "name": "无障碍卫生间",
-      "balance_value": -8013.83,
-      "balance_unit": "unknown",
-      "last_updated": "2026-08-23T17:10:25+08:00",
+      "balance_value": -8016.11,
+      "balance_unit": "元",
+      "last_updated": "2026-08-23T21:21:09+08:00",
       "stale": false,
-      "quality": "ok"
+      "quality": "ok",
+      "consumed_today": null,
+      "consumption_quality": "insufficient_history"
     }
   ]
 }

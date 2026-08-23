@@ -670,5 +670,677 @@
     "balance_value": 0.35,
     "balance_unit": "元",
     "quality": "ok"
+  },
+  {
+    "room_id": "1741b699-8149-5588-9182-f230c4ff443c",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:10+08:00",
+    "balance_value": 65.3,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "1931637e-caa1-596b-81f0-e47e73102aba",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:11+08:00",
+    "balance_value": 16.63,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "9e099400-260f-5b1c-b7fa-40fe14d3ab73",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:11+08:00",
+    "balance_value": 14.56,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "e01d0ef4-870f-56ec-8da5-d3c0173f5ccb",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:11+08:00",
+    "balance_value": 14.34,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "f25aa7ee-ffb6-504f-b57d-5dcdd813a90e",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:11+08:00",
+    "balance_value": 16.69,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "1d8d44ee-9d37-521e-a973-727aae12fc5c",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:12+08:00",
+    "balance_value": 20.71,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "347f669b-290e-51ab-8c6a-c8786321b988",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:12+08:00",
+    "balance_value": 23.69,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "87c4e995-3dba-5c3b-882b-2a0c732b6964",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:12+08:00",
+    "balance_value": 14.11,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "e9bb66dd-d929-5acd-ba89-945fc7c9c605",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:12+08:00",
+    "balance_value": 15.34,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "26e3c094-f768-5321-abc4-cc039185a09b",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:13+08:00",
+    "balance_value": 38.87,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "41daa3c9-dc7b-5376-ae37-005151df48dc",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:13+08:00",
+    "balance_value": 0.76,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "87f31e20-fe41-5bb5-a007-49be487fc402",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:13+08:00",
+    "balance_value": 13.9,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "99c4524f-92ba-59a4-bcbc-d7ee3f102cec",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:13+08:00",
+    "balance_value": 15.99,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "b71037ee-087d-5de9-9125-b2693e474b24",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:13+08:00",
+    "balance_value": 15.43,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "05e4da36-95b3-5bf8-8390-1b13b61862f6",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:14+08:00",
+    "balance_value": 28.2,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "392c2f8d-949e-5a11-b55a-09f365baefd3",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:14+08:00",
+    "balance_value": 104.17,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "80ee8339-8b82-546d-bf70-2083ff675a67",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:14+08:00",
+    "balance_value": 16.49,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "c01092e2-6ad0-5d6a-9e78-8751ac80bd59",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:14+08:00",
+    "balance_value": 15.62,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "56451242-6ff6-5f47-9a69-2c0e6a18f2c4",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:15+08:00",
+    "balance_value": 16.06,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "69b18e48-2562-580e-97db-3aa64415b901",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:15+08:00",
+    "balance_value": 12.57,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "867f6a5c-d5b2-544c-9a08-4b9b0fc04383",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:15+08:00",
+    "balance_value": 15.63,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "9290212d-0e6a-5e29-97ad-7a59db05a6a8",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:15+08:00",
+    "balance_value": 25.56,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "018a7c73-9f7a-5df1-accb-b16832f35b46",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:16+08:00",
+    "balance_value": 15.73,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "5d7ebc72-0b3f-5726-a57a-883aa58745f8",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:16+08:00",
+    "balance_value": 14.36,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "e32fbbbe-a1b0-5a2d-9e16-7f6f4bb85bf3",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:16+08:00",
+    "balance_value": 14.08,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "e65fd361-4679-5b94-93fb-92b84a36e2c9",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:16+08:00",
+    "balance_value": 18.33,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "247351a5-6dc5-5869-92e5-7fc7aeac6ef5",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:17+08:00",
+    "balance_value": 15.21,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "2ad70af2-a224-58d1-9d33-c1f452bdde37",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:17+08:00",
+    "balance_value": 39.1,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "ba71a744-7f9c-5e35-84ce-c6d2332d32be",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:17+08:00",
+    "balance_value": 20.76,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "f29b10e3-2d69-5d7a-b636-98e90909f8fd",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:17+08:00",
+    "balance_value": 35.91,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "22005cbe-4f04-5d7c-b220-a9161c36d27b",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:18+08:00",
+    "balance_value": 23.42,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "2afb73fc-f70f-5b63-a60a-4c9a1756b3de",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:18+08:00",
+    "balance_value": 15.75,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "47d70603-7827-5595-afc7-3ad8438d3f76",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:18+08:00",
+    "balance_value": 41.35,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "d5f0a9f1-aee3-5385-a93b-d040b44303de",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:18+08:00",
+    "balance_value": 31.89,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "1e93cc6e-4890-5933-9265-b1a6a03574c9",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:19+08:00",
+    "balance_value": 16.49,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "5ec0fb96-cb75-598c-91c4-a04e61dbfee2",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:19+08:00",
+    "balance_value": 11.61,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "dd1cebb8-9ad2-5af7-aee6-826b06cbd1de",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:19+08:00",
+    "balance_value": 10.4,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "f718120b-ee89-5d2b-b534-e0ca546b7e4f",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:19+08:00",
+    "balance_value": 15.56,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "1e1e4e70-9f3d-52a9-9290-5cd2cc0e5137",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:20+08:00",
+    "balance_value": 15.48,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "48224282-42f9-56f5-8e80-d520bf0eeac4",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:20+08:00",
+    "balance_value": 14.23,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "6a64a915-4534-565f-8152-3802cadb59e3",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:20+08:00",
+    "balance_value": 15.97,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "a2629f31-4771-56a2-addf-bf351468db99",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:20+08:00",
+    "balance_value": 17.26,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "11ee1292-66be-5edb-b652-1bc75fc19fdb",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:21+08:00",
+    "balance_value": 15.71,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "184e8c99-d4ca-59ed-b0f4-f8842bc74777",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:21+08:00",
+    "balance_value": 20.88,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "5728bf55-511e-5202-a4cb-24f104e943b5",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:21+08:00",
+    "balance_value": 19.7,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "6f579074-1053-5ac5-a783-60dd2b65676d",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:21+08:00",
+    "balance_value": 29.72,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "2ded936c-6bfb-52d1-b508-16becc7c6192",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:22+08:00",
+    "balance_value": 34.83,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "584efb25-67ab-518b-bca4-f9403064fe24",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:22+08:00",
+    "balance_value": 1.17,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "9e5bf3bb-27b8-514b-a107-b524125a1ab4",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:22+08:00",
+    "balance_value": 28.58,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "9f8504c6-e74e-557c-b277-aa40394e9e9a",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:22+08:00",
+    "balance_value": 16.86,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "67cc64cc-9c3f-5cb7-89ee-5eadd2e5396c",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:23+08:00",
+    "balance_value": 26.32,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "a59de6e1-0bd5-502d-8762-9da675c6362d",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:23+08:00",
+    "balance_value": 23.39,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "e421f3b2-c1f3-5ada-ba1f-5561b5dec19a",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:23+08:00",
+    "balance_value": 17.01,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "ef562d02-dc29-5667-8756-a3c7c876813e",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:23+08:00",
+    "balance_value": 5.23,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "47a54d1f-8dbc-57a1-b714-c3324abd7558",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:24+08:00",
+    "balance_value": 15.09,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "87252d86-c42a-5460-a02d-50db53130f4e",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:24+08:00",
+    "balance_value": 23.63,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "c7850d78-aaa4-5171-951b-1913ba9b82b3",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:24+08:00",
+    "balance_value": 11.07,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "e6d9674e-52d7-5ad3-8a90-dd1558a293e3",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:24+08:00",
+    "balance_value": 34.04,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "8dd4a40c-90cc-5077-9c9a-f58088cf0ad4",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:25+08:00",
+    "balance_value": 155.02,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "9b6fe144-714c-5950-88c9-7e20f3259aba",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:25+08:00",
+    "balance_value": 23.51,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "d9344ae5-083d-5041-bfb1-72272be378d8",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:25+08:00",
+    "balance_value": 22.27,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "fc4bcd20-114b-57f8-860e-d4f728c35609",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:25+08:00",
+    "balance_value": 27.78,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "2851848f-ab10-5824-9431-679cadd9150a",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:26+08:00",
+    "balance_value": 25.9,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "396bf31c-fb02-563b-904f-a4407d41f710",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:26+08:00",
+    "balance_value": 37.26,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "5613f4db-5528-5460-bd3f-0ad1387afe0e",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:26+08:00",
+    "balance_value": 20.29,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "b78d28e3-054b-5dc6-97e8-88e2dbc4c943",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:26+08:00",
+    "balance_value": 16.5,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "2328d39e-3846-59b0-a5f7-22722d31f1d3",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:27+08:00",
+    "balance_value": 23.21,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "d8228785-7bf2-5849-8bd9-d7017d792ea2",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:27+08:00",
+    "balance_value": -413.07,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "e8f46188-4c9b-501d-be0d-00eeb5c26eab",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:27+08:00",
+    "balance_value": -4893.27,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "f1f10220-5a69-5914-bb4a-5727e2a4980e",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:27+08:00",
+    "balance_value": 24.24,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "15df52e9-4995-50c8-9684-d53c1950c46d",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:28+08:00",
+    "balance_value": -8017.58,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "73ba31db-ac97-5141-8d98-094116a3b401",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:28+08:00",
+    "balance_value": -17.49,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "b06c7539-a7c5-5f6b-b54f-beb13257c319",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:28+08:00",
+    "balance_value": 16.99,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "d94c1dab-571c-5237-9f35-d73837004e56",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:28+08:00",
+    "balance_value": -110.89,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "fd6390f5-88dd-5072-975a-26c4417f97a0",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:28+08:00",
+    "balance_value": -10623.35,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "260d67cd-b4a8-5707-9b8c-55a5f7980161",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:29+08:00",
+    "balance_value": 32.07,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "897414be-fcab-50ce-89eb-b193c848f980",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:29+08:00",
+    "balance_value": 26.14,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "a1816065-d275-58c7-9def-18c3ebac353c",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:29+08:00",
+    "balance_value": 89.09,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "b3133b44-d30d-53d8-a9cc-4305023c7ba3",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:29+08:00",
+    "balance_value": 30.36,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "0a0faadf-6ca1-55a8-9907-00c4bd9fe052",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:30+08:00",
+    "balance_value": 0.02,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "2b3bfaa8-b5e1-5d01-8fe7-3c82e2b9afde",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:30+08:00",
+    "balance_value": 33.52,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "370dee10-13d6-5b6d-9137-63e63afcff51",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:30+08:00",
+    "balance_value": 32.95,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "ad69aa0b-d038-5b1e-b677-db0660f2362a",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:30+08:00",
+    "balance_value": 34.15,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "d0cc8420-c904-5724-9f2e-7214199fed52",
+    "slot": "2026-08-23T23:00:00+08:00",
+    "sampled_at": "2026-08-23T23:30:31+08:00",
+    "balance_value": 49.94,
+    "balance_unit": "元",
+    "quality": "ok"
   }
 ]

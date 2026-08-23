@@ -16,3 +16,14 @@ def test_export_is_deidentified_and_atomic(tmp_path):
     assert rooms[0]['consumed_today'] == 4.0
     assert rooms[0]['consumption_quality'] == 'ok'
     assert rooms[0]['balance_unit'] == '元'
+
+def test_export_rehydrates_previous_public_history_for_ephemeral_runner(tmp_path):
+    target=tmp_path/'public'; first_db=tmp_path/'first.db'; second_db=tmp_path/'second.db'
+    for db, point in ((first_db, ('2026-08-23T16:00:00+08:00','2026-08-23T16:01:00+08:00',10.0)), (second_db, ('2026-08-23T20:00:00+08:00','2026-08-23T20:01:00+08:00',7.5))):
+        init_db(db)
+        with connect(db) as c:
+            c.execute("INSERT INTO room_registry VALUES(?,?,?,?,?,?,?,?,?)",('room-a','PRIVATE-1','校区','楼栋','1','101','2026-01-01','2026-01-01',1))
+            upsert_snapshot(c,{'room_id':'room-a','slot':point[0],'sampled_at':point[1],'balance_value':point[2],'balance_unit':'元','price':None,'quality':'ok','run_id':'run'})
+        stage=export_public(db,target); publish_staging(stage,target)
+    rooms=json.loads((target/'v1/registry/rooms.json').read_text(encoding='utf-8'))
+    assert rooms[0]['consumed_today'] == 2.5

@@ -69,11 +69,30 @@ def _consumption_index(snapshots: list[dict]) -> tuple[dict[tuple[str, str], dic
                 row["recharged"] += max(0, (current or 0) - (points[index - 1].get("balance_value") or 0))
     return point_index, daily, latest_day
 
+def _previous_public_snapshots(target: Path) -> list[dict]:
+    """Load the prior sanitized history when running on an ephemeral runner."""
+    root = target / "v1" / "intraday"
+    if not root.exists(): return []
+    found=[]
+    for path in root.rglob("*.json"):
+        try: values=json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, ValueError): continue
+        if not isinstance(values, list): continue
+        for value in values:
+            if not isinstance(value, dict) or not value.get("room_id") or not value.get("slot"): continue
+            found.append({"room_id":value["room_id"],"slot":value["slot"],"sampled_at":value.get("sampled_at",value["slot"]),"balance_value":value.get("balance_value"),"balance_unit":"元","price":None,"quality":value.get("quality","ok"),"run_id":"public-history"})
+    return found
+
 def export_public(db_path: Path=VAR/"sufeelec.db", target: Path=PUBLIC) -> Path:
     """Build a complete public view in a staging directory; no private IDs leave this function."""
     with connect(db_path) as conn:
         registry=[dict(x) for x in conn.execute("SELECT room_id,campus,building,floor,room,last_confirmed_at FROM room_registry WHERE active=1 ORDER BY campus,building,room")]
         snapshots=[dict(x) for x in conn.execute("SELECT s.* FROM snapshots s JOIN room_registry r ON r.room_id=s.room_id WHERE r.active=1 ORDER BY s.sampled_at")]
+    # GitHub-hosted runners are ephemeral. Rehydrate the previous sanitized
+    # intraday points so the new run can calculate deltas across slots.
+    merged={(x["room_id"],x["slot"]):x for x in _previous_public_snapshots(target)}
+    merged.update({(x["room_id"],x["slot"]):x for x in snapshots})
+    snapshots=sorted(merged.values(),key=lambda x: x["sampled_at"])
     campuses=[]; campus_ids={}; buildings=[]; building_ids={}
     for row in registry:
         if row["campus"] not in campus_ids:

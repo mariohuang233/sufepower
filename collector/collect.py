@@ -12,13 +12,32 @@ class Collector:
     def __init__(self, client, db_path=VAR/"sufeelec.db"):
         self.client=client; self.db_path=db_path; init_db(db_path)
 
-    def _account_rows(self) -> list[dict]:
-        """Use the private weekly-discovered zone registry for zone-scoped reads."""
+    def _zones(self) -> list[dict]:
+        """Load the private zone registry, discovering it on ephemeral runners."""
         zone_file=ROOT/"data"/"zone_list.json"
         try: zones=json.loads(zone_file.read_text(encoding="utf-8"))
         except (OSError,ValueError): zones=[]
         if not isinstance(zones,list) or not zones:
-            return rows(self.client.get("/entityacct/list.do").json())
+            # GitHub-hosted runners are ephemeral and intentionally do not
+            # receive ignored/private data files. Discover the read-only zone
+            # tree from EMS instead of falling back to an unscoped account list.
+            discovered=rows(self.client.get("/zone/list.do").json())
+            zones=[]
+            for zone in discovered:
+                zone_id=pick(zone,"zoneid","zoneId","id")
+                if zone_id is None: continue
+                zones.append({
+                    "zoneid":str(zone_id),
+                    "parentid":pick(zone,"parentid","parentId","parentZoneId","pid"),
+                    "zonename":str(pick(zone,"zonename","zoneName","name","title") or zone_id),
+                })
+        if not zones:
+            raise RuntimeError("EMS zone discovery returned no zones; refusing unscoped collection")
+        return zones
+
+    def _account_rows(self) -> list[dict]:
+        """Use zone-scoped read-only requests for the complete collection."""
+        zones=self._zones()
         parent_ids={str(z.get("parentid")) for z in zones if isinstance(z,dict)}
         leaves=[z for z in zones if isinstance(z,dict) and str(z.get("zoneid")) not in parent_ids]
         def zone_path(zone_id):

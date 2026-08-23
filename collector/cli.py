@@ -25,7 +25,11 @@ def main():
     elif args.command=="collect":
         try: client=EMSClient(settings.token,settings.api_base,settings.interval_seconds)
         except AuthError as exc: parser.error(str(exc))
-        try: print(json.dumps(Collector(client).collect(slot_for()),ensure_ascii=False))
+        try:
+            result=Collector(client).collect(slot_for())
+            print(json.dumps(result,ensure_ascii=False))
+            if result.get("status")=="blocked":
+                raise SystemExit("collection coverage below 90%; export was not attempted")
         except BadRequestError as exc: parser.error(str(exc))
         except Exception as exc: parser.error(f"采集请求失败：{exc}")
         finally: client.close()

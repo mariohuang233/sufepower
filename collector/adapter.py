@@ -39,5 +39,7 @@ def normalize_device(account: dict, device: dict, campus_hint: str = "未知校�
     private_id=str(pick(device,"devno","devNo","deviceNo","deviceId","id") or pick(account,"entityacctid","entityAcctId","acctid","id") or "")
     balance=number(pick(device,"balance","amt","amount","surplus","surplusAmount"))
     price=number(pick(device,"price","priceValue","pricetxt","unitPrice"))
-    unit=str(pick(device,"balanceUnit","unit","energyUnit") or "unknown")
+    # EMS balance is a monetary account balance; keep one public unit even
+    # when different response variants omit or rename the unit field.
+    unit="元"
     return {**parts,"private_device_id":private_id,"balance_value":balance,"balance_unit":unit,"price":price}

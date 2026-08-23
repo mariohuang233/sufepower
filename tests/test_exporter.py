@@ -12,6 +12,7 @@ def test_export_is_deidentified_and_atomic(tmp_path):
     target=tmp_path/'public'; stage=export_public(db,target); validate_staging(stage); publish_staging(stage,target)
     assert (target/'v1/manifest.json').exists()
     assert 'PRIVATE-1' not in (target/'v1/manifest.json').read_text()
-    rooms=json.loads((target/'v1/registry/rooms.json').read_text())
+    rooms=json.loads((target/'v1/registry/rooms.json').read_text(encoding='utf-8'))
     assert rooms[0]['consumed_today'] == 4.0
     assert rooms[0]['consumption_quality'] == 'ok'
+    assert rooms[0]['balance_unit'] == '元'

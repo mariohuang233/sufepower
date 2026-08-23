@@ -25,4 +25,4 @@ def test_collect_normalizes_and_upserts_idempotently(tmp_path):
         assert conn.execute("select count(*) from room_registry").fetchone()[0]==1
         assert conn.execute("select count(*) from snapshots").fetchone()[0]==1
         row=conn.execute("select balance_value,balance_unit from snapshots").fetchone()
-    assert row[0]==6.37 and row[1]=="unknown"
+        assert row[0]==6.37 and row[1]=="元"

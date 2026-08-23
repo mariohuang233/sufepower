@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
-  "data_version": "20260823T131",
+  "data_version": "20260823T162",
   "latest_slot": "2026-08-23T12:00:00+08:00",
-  "sampled_at": "2026-08-23T13:18:04+08:00",
+  "sampled_at": "2026-08-23T16:22:11+08:00",
   "total_rooms": 4905,
   "successful_rooms": 4905,
   "failed_rooms": 0,
   "coverage": 1.0,
   "status": "healthy",
   "oldest_intraday_date": "2026-08-23",
-  "generated_at": "2026-08-23T13:18:04+08:00"
+  "generated_at": "2026-08-23T16:22:11+08:00"
 }

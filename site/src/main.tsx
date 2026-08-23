@@ -11,7 +11,8 @@ type Room = { room_id: string; campus_id: string; building_id: string; floor: st
 type Page = 'home' | 'search' | 'campus' | 'building' | 'status' | 'about';
 type Range = '7' | '30' | 'all';
 
-const base = new URL(`${import.meta.env.BASE_URL}v1/`, window.location.href).toString();
+// Resolve data from the deployed site root, including GitHub Pages project paths.
+const base = new URL('v1/', new URL(import.meta.env.BASE_URL, window.location.href)).toString();
 
 async function get<T>(path: string): Promise<T> {
   const response = await fetch(new URL(path, base));

@@ -1262,5 +1262,637 @@
     "balance_value": 0.0,
     "balance_unit": "元",
     "quality": "ok"
+  },
+  {
+    "room_id": "07652f2a-dba9-5ecf-a931-cd956f6201cd",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:48+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "86be11d5-e672-5eef-82ac-8d708f4bf61d",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:48+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "abe4b488-1eda-5614-a24a-bde91750ed65",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:48+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "b945528e-ff32-5815-a7be-5d0951e53f44",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:48+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "8caf8359-2b81-5836-b558-3cd4015c8bef",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:49+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "a2f39268-4e0a-53ae-84e8-e7cbd1ccb135",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:49+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "eac80768-5065-5fd2-8e84-5d0c32a997a4",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:49+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "12838fdb-3f40-50b7-8b11-52cc085a7342",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:50+08:00",
+    "balance_value": -0.25,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "60f76aed-f574-5dca-9f51-de8543477215",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:50+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "c669306e-be91-5d63-9544-f5bf20e02b88",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:50+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "e54f31f5-23ee-589d-bf9c-8ca9b9a80b90",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:50+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "49abbff0-2432-512a-b489-c7983472f43b",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:51+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "8bc8d1e1-c186-535d-83d7-8a323cd0caf4",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:51+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "ad731a2c-7752-5d72-994e-d78a7d046d85",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:51+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "c4c66412-299c-5065-9469-1d967079513d",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:51+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "3377542f-f6d0-5fc4-a144-e9cba2e424d8",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:52+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "3fdfcf73-cd6f-54bd-acd4-bd1b4a7efdb6",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:52+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "7f10d4b2-894d-55d9-90ed-f904e6b9d8bc",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:52+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "dedbd5ea-b6fb-5b50-a0ea-f1c05d4c7906",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:52+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "0c2b2477-6e66-503f-b6a8-16c370f753b1",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:53+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "73c80107-61fe-54bb-85f7-f9a2a1686960",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:53+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "c0bd2225-8b9b-58b4-aecd-11b4f6d6a683",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:53+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "ffd96522-16ce-53e3-bc0b-354581c437e4",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:53+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "76fd8864-ad3b-5412-b53c-bdb30325f2cc",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:54+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "81a97220-d51a-523f-ad10-6b721c30ead8",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:54+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "92dcc89e-82dd-5925-82cd-8b9ed25ccdb6",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:54+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "9e1e57a3-fab4-5c0a-8736-1f7de2548d4e",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:54+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "01b441b0-b40b-558d-a3aa-878dd2b36200",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:55+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "399fd3d6-9a5a-552d-a444-e385d3444107",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:55+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "632249f5-57eb-52c6-bd26-58b8fc4d17bd",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:55+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "ef9fe9cb-3c3f-5522-9ab5-4ff861426e32",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:55+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "7dd0fb3d-8b51-5eb0-8ed4-de9d33b90e2d",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:56+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "8c154a59-bc7d-53f7-88b6-e0391b0e9e84",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:56+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "a0290171-9e0b-53bf-8f8b-42035f965dc2",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:56+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "afde2056-7057-5b5d-9bf5-df19f704f538",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:56+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "1a23b7fd-790e-5887-8c40-d5ac2bd6c434",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:57+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "b30d1bce-e372-5583-9545-9fb2b22a010d",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:57+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "d78a587a-fa0d-5e6f-a013-6b6365fd6b47",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:57+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "f55de9ff-2a63-5087-a2b7-843563e44ead",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:57+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "06c80fdf-ec0c-572e-b2e8-690e59da19fa",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:58+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "1007bf9a-62eb-5c64-b65c-a07ca06b8811",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:58+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "83872dcc-a99c-5932-af6f-2d1a734bf02a",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:58+08:00",
+    "balance_value": -1.13,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "5a2f2cb1-2407-550b-abcf-8b3e920fe6aa",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:59+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "5f024fd6-26ed-5680-ab6d-60bb3f9da97e",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:59+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "9e3dbe11-47dd-5b2b-bbfe-07c82d2944a2",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:59+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "e37a8d5d-c1e4-5969-9965-5fb722e1562f",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:22:59+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "328010ea-618d-5822-ad8e-9a139f710564",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:23:00+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "597ddb8a-0618-5c8a-b9c1-f2e03fd2e33e",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:23:00+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "7fafe23a-3bc6-5238-8d2f-7585a83be61d",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:23:00+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "c7ecfe5d-be7b-5911-91bf-2cad14648e79",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:23:00+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "31d0090b-ce8b-5dcc-aadb-f1611c63a757",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:23:01+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "cfb27ea4-1ced-569d-89e3-da2c34162680",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:23:01+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "da87654b-35cc-58bc-a45c-6da58beb2194",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:23:01+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "e8689a95-d799-5a6e-931e-62181963b674",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:23:01+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "09e8753a-a771-5168-9162-3581440bafd2",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:23:02+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "260cbea3-a418-53e1-893e-e1ba16362a92",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:23:02+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "2e4b0c14-8771-5185-b9e9-1bf28707afa6",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:23:02+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "8f4a5a9b-7bd0-542b-9f1c-ffa745c916a3",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:23:02+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "0113352c-b546-5bee-b175-6b36b0258ffa",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:23:03+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "18240ebb-2d83-56fd-b7d6-58b42977d839",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:23:03+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "7c7ed27e-9f72-5920-90ff-a7d504977751",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:23:03+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "f92c4575-8262-5d3d-9e2e-64728826fbe8",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:23:03+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "5e130192-8dfa-53fa-8164-dce92e6779f2",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:23:04+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "92bc79ac-54ec-534f-b1dd-8a2ce6bef8bc",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:23:04+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "d2aea8b9-0b78-57ea-8d02-d22c8fc8adb2",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:23:04+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "e1364100-d37a-5fcc-a89a-762d39edf60a",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:23:04+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "60893ccd-f81e-5dbc-983f-7fe2c31417ea",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:23:05+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "b48c9e9b-3077-5660-8ae8-6022d27e9451",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:23:05+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "d3a13589-fdfd-524e-9508-baa30ff9ed89",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:23:05+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "f49a5706-ee44-5c4c-a5a7-c2a7bab707f0",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:23:05+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "4313abed-41bf-54ee-8279-40383e53f316",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:23:06+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "726cd567-e35c-564a-aa23-e9090dbecfd3",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:23:06+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "9e9273c1-a60f-53f0-bd3e-a41dec79c252",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:23:06+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "c536fc6b-e0b2-58b6-8744-f57c18732df7",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:23:06+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "27922de7-8418-529b-87ac-01be4aa09e73",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:23:07+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "911e9982-69f7-52d6-951f-0ae229514646",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:23:07+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "93cd609a-eb7b-553c-915f-542b298bcefe",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:23:07+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "a0705577-eefc-56d8-bba3-9d32f7eb0347",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:23:07+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "9bda0b45-9a6d-5778-a896-a9c62a5ea763",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:23:08+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
   }
 ]

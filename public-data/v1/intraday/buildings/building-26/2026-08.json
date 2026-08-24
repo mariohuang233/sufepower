@@ -158,5 +158,85 @@
     "balance_value": 0.0,
     "balance_unit": "元",
     "quality": "ok"
+  },
+  {
+    "room_id": "c96fe911-1809-5e89-a5d6-c8e7bf1d1d7f",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:24:56+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "2aae48d4-f590-5a58-b538-ba9d49929644",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:24:57+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "3dc35ee3-8429-5af2-848a-85a8b74b5b13",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:24:57+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "67b0c21e-6e1e-526e-bb68-fe375da9ef2f",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:24:57+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "ffda603e-b44a-534a-a567-e115572ed96b",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:24:57+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "4c605fa3-1c7e-555f-b2ac-50d3c0636a96",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:24:58+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "4de20b3c-36db-5a9f-ba60-0db23a1943a0",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:24:58+08:00",
+    "balance_value": -2.54,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "72b14f00-2a80-51e9-a8a4-2253e0d49369",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:24:58+08:00",
+    "balance_value": -7.43,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "aa6f4a65-f37b-5cee-aec9-b64b2bae5579",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:24:58+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
+  },
+  {
+    "room_id": "90846a97-1f93-5055-8211-744446987d9d",
+    "slot": "2026-08-24T23:00:00+08:00",
+    "sampled_at": "2026-08-24T10:24:59+08:00",
+    "balance_value": 0.0,
+    "balance_unit": "元",
+    "quality": "ok"
   }
 ]

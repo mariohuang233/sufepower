@@ -1,6 +1,6 @@
-export type Point = { room_id: string; slot: string; sampled_at: string; balance_value: number | null; balance_unit?: string; quality?: string };
+export type Point = { room_id: string; slot: string; sampled_at: string; balance_value: number | null; balance_unit?: string; quality?: string; consumed?: number | null; recharged?: number; consumption_quality?: string };
 
-export type ConsumptionDay = { day: string; consumed: number; recharged: number; endBalance: number | null };
+export type ConsumptionDay = { day: string; consumed: number; recharged: number; endBalance: number | null; quality?: string };
 
 export function sortedPoints(points: Point[]): Point[] {
   return points.filter((point) => typeof point.balance_value === 'number').sort((a, b) => a.sampled_at.localeCompare(b.sampled_at));
@@ -8,6 +8,16 @@ export function sortedPoints(points: Point[]): Point[] {
 
 export function consumptionDays(points: Point[]): ConsumptionDay[] {
   const sorted = sortedPoints(points);
+  const canonical = sorted.filter((point) => point.consumed !== undefined || point.consumption_quality !== undefined);
+  if (canonical.length) {
+    return canonical.map((point) => ({
+      day: point.sampled_at.slice(0, 10),
+      consumed: typeof point.consumed === 'number' ? point.consumed : 0,
+      recharged: point.recharged || 0,
+      endBalance: point.balance_value,
+      quality: point.consumption_quality || 'insufficient_history',
+    }));
+  }
   const grouped = new Map<string, ConsumptionDay>();
   for (let index = 1; index < sorted.length; index += 1) {
     const previousPoint = sorted[index - 1];
@@ -31,7 +41,7 @@ export function totalConsumption(points: Point[]): number {
 }
 
 export function averageDailyConsumption(points: Point[], days = 7): number {
-  const rows = consumptionDays(points).slice(-days).filter((row) => row.consumed > 0);
+  const rows = consumptionDays(points).slice(-days).filter((row) => row.quality ? row.quality === 'ok' : row.consumed > 0);
   if (!rows.length) return 0;
   return rows.reduce((total, row) => total + row.consumed, 0) / rows.length;
 }
@@ -39,7 +49,7 @@ export function averageDailyConsumption(points: Point[], days = 7): number {
 export function forecast(balance: number | null, points: Point[]) {
   const daily = averageDailyConsumption(points);
   const days = balance != null && daily > 0 ? balance / daily : null;
-  const confidence = Math.min(1, consumptionDays(points).filter((row) => row.consumed > 0).length / 7);
+  const confidence = Math.min(1, consumptionDays(points).filter((row) => row.quality ? row.quality === 'ok' : row.consumed > 0).length / 7);
   return { daily, days, confidence };
 }
 
@@ -49,17 +59,4 @@ export function rankByConsumption(rows: Array<{ room_id: string; consumed: numbe
 
 export function formatNumber(value: number, digits = 1): string {
   return value.toLocaleString('zh-CN', { maximumFractionDigits: digits });
-}
-
-export function analogy(value: number, seed = Math.random()): { icon: string; text: string; detail: string } {
-  const options = [
-    { icon: '📱', text: `约等于手机充电 ${formatNumber(value * 74, 0)} 次`, detail: '按 1 度电约可为手机充电 74 次估算' },
-    { icon: '🧺', text: `约等于洗衣 ${formatNumber(value * 2, 0)} 桶`, detail: '按每桶洗衣约 0.5 度电估算' },
-    { icon: '☕', text: `约等于煮咖啡 ${formatNumber(value * 12, 0)} 杯`, detail: '把复杂的度数换成一杯热咖啡' },
-    { icon: '🚲', text: `电动车大约能骑 ${formatNumber(value * 50, 0)} 公里`, detail: '按常见电动车每公里约 0.02 度电估算' },
-    { icon: '🚗', text: `小米 SU7 约能行驶 ${formatNumber(value * 6, 0)} 公里`, detail: '按电动车每公里约 0.16 度电估算' },
-    { icon: '🌳', text: `需要约 ${formatNumber(value * 0.06, 1)} 棵树吸收对应碳排放`, detail: '碳排放为公开估算口径，仅用于直观理解' },
-    { icon: '🤖', text: `约支持 ${formatNumber(value * 20, 0)} 次 AI 问答`, detail: 'AI 用电量因模型和设备不同而变化' },
-  ];
-  return options[Math.floor(Math.max(0, Math.min(0.999999, seed)) * options.length)];
 }

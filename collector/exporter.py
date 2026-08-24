@@ -100,7 +100,7 @@ def export_public(db_path: Path=VAR/"sufeelec.db", target: Path=PUBLIC) -> Path:
         key=(row["campus"],row["building"])
         if key not in building_ids:
             bid="building-"+str(len(building_ids)+1); building_ids[key]=bid; buildings.append({"building_id":bid,"campus_id":campus_ids[row["campus"]],"name":row["building"]})
-    point_index, daily_index, report_day = _consumption_index(snapshots)
+    _point_index, daily_index, _report_day = _consumption_index(snapshots)
     latest={}
     for snap in snapshots: latest[snap["room_id"]]=snap
     rooms=[]
@@ -120,6 +120,7 @@ def export_public(db_path: Path=VAR/"sufeelec.db", target: Path=PUBLIC) -> Path:
         bid=room_building.get(snap["room_id"])
         if not bid: continue
         history_by_building.setdefault(bid,[]).append({"room_id":snap["room_id"],"slot":snap["slot"],"sampled_at":snap["sampled_at"],"balance_value":snap["balance_value"],"balance_unit":"元","quality":snap["quality"]})
+    daily_by_building={}
     for bid, history in history_by_building.items():
         months={str(x["slot"])[:7] for x in history}
         for month in months: _write(stage/f"intraday/buildings/{bid}/{month}.json",[x for x in history if str(x["slot"]).startswith(month)])
@@ -129,13 +130,15 @@ def export_public(db_path: Path=VAR/"sufeelec.db", target: Path=PUBLIC) -> Path:
             day=str(point["sampled_at"])[:10]; key=(point["room_id"],day)
             if point["balance_value"] is not None and (key not in daily or point["sampled_at"]>daily[key]["sampled_at"]):
                 daily[key]={**point,"balance_unit":"元","consumed":daily_index.get(key,{}).get("consumed") if daily_index.get(key,{}).get("quality")=="ok" else None,"recharged":daily_index.get(key,{}).get("recharged",0),"consumption_quality":daily_index.get(key,{}).get("quality","insufficient_history")}
-        _write(stage/f"daily/buildings/{bid}.json",list(daily.values()))
+        daily_rows=sorted(daily.values(),key=lambda point:(point["sampled_at"],point["room_id"]))
+        daily_by_building[bid]=daily_rows
+        _write(stage/f"daily/buildings/{bid}.json",daily_rows)
     for campus in campuses:
-        bids={x["building_id"] for x in buildings if x["campus_id"]==campus["campus_id"]}; points=[p for bid in bids for p in history_by_building.get(bid,[])]
+        bids={x["building_id"] for x in buildings if x["campus_id"]==campus["campus_id"]}; points=sorted([p for bid in bids for p in daily_by_building.get(bid,[])],key=lambda point:(point["sampled_at"],point["room_id"]))
         _write(stage/f"daily/campuses/{campus['campus_id']}.json",points)
     _write(stage/"latest/overview.json",{"generated_at":generated,"latest_slot":latest_slot,"total_rooms":total,"successful_rooms":successful,"failed_rooms":total-successful,"coverage":round(cov,4),"status":status,"campuses":campuses})
     oldest=min((str(x["sampled_at"])[:10] for x in snapshots),default=None)
-    _write(stage/"manifest.json",{"schema_version":"1.0.0","data_version":generated.replace("-","").replace(":","")[:12],"latest_slot":latest_slot,"sampled_at":generated,"total_rooms":total,"successful_rooms":successful,"failed_rooms":total-successful,"coverage":round(cov,4),"status":status,"oldest_intraday_date":oldest,"generated_at":generated})
+    _write(stage/"manifest.json",{"schema_version":"1.0.0","data_version":generated.replace("-","").replace(":","")[:12],"latest_slot":latest_slot,"sampled_at":generated,"total_rooms":total,"successful_rooms":successful,"failed_rooms":total-successful,"coverage":round(cov,4),"status":status,"oldest_intraday_date":oldest,"generated_at":generated,"collection_schedule":"daily_23_shanghai","consumption_method":"adjacent_daily_balance_drop","balance_unit":"元"})
     return stage
 
 def validate_staging(stage: Path) -> None:

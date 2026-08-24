@@ -23,7 +23,8 @@ def generate(root: Path = PUBLIC) -> Path:
                 points=[]
                 for days in range(30,-1,-1):
                     at=base-timedelta(days=days)
-                    points.append({"slot":iso(at),"sampled_at":iso(at),"balance_value":round(value+(30-days)*.18,2),"balance_unit":"元","quality":"ok"})
+                    first=days==30
+                    points.append({"slot":iso(at),"sampled_at":iso(at),"balance_value":round(value+days*.18,2),"balance_unit":"元","quality":"ok","consumed":None if first else .18,"recharged":0.0,"consumption_quality":"insufficient_history" if first else "ok"})
                 histories[bid].extend([{**p,"room_id":rid} for p in points])
     out=root/"v1"; (out/"registry").mkdir(parents=True,exist_ok=True); (out/"latest"/"buildings").mkdir(parents=True,exist_ok=True); (out/"intraday"/"buildings").mkdir(parents=True,exist_ok=True)
     (out/"registry/campuses.json").write_text(json.dumps(campuses,ensure_ascii=False,indent=2),encoding="utf-8")
